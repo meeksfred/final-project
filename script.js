@@ -30,24 +30,30 @@ $(document).ready(function() {
   $('#submitIt').click(function(event) {
     event.preventDefault();
     $.each($("input[type='checkbox']:checked"), function(){
-      matches.push($(this).val());
+      var $selectedPlace = $(this).val();
+      matches.push($selectedPlace);
+      for(var x in db){
+        if($selectedPlace === x){
+          for(var hoods in db){
+            if(hoods === x){
+            console.log(db[hoods]);
+          }
+        }
+
+        }
+      };
+
     });
     console.log(matches);
      matches.forEach(function(value){
     $('#showResults').append('<p>'+ value +'</p>');
-    var ballardFound = $.inArray('Ballard', matches);
-    // ['Ballard', 'Fremont'].forEach(function(city) {
-
-    // })
-    //console.log(matches);
-    if(ballardFound !== -1){
-
-      console.log('ballard was found');
-    }
-    })
+    });
      matches = [];
-  });
 });
+});
+
+
+
 
 
 
