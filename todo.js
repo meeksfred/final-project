@@ -1,6 +1,6 @@
 
-var express = require('express');
-var app = express();
+// var express = require('express');
+// var app = express();
 
 
 var db = {
@@ -1179,72 +1179,72 @@ var db = {
 };
 
 
-app.get('/capitolHill', function(req, res) {
-  res.json(db.capitolHill);
-});
+// app.get('/capitolHill', function(req, res) {
+//   res.json(db.capitolHill);
+// });
 
-app.get('/queenAnne', function(req, res) {
-  res.json(db.queenAnne);
-});
+// app.get('/queenAnne', function(req, res) {
+//   res.json(db.queenAnne);
+// });
 
-app.get('/downtown', function(req, res) {
-  res.json(db.downtown);
-});
+// app.get('/downtown', function(req, res) {
+//   res.json(db.downtown);
+// });
 
-app.get('/ballard', function(req, res) {
-  res.json(db.ballard);
-});
+// app.get('/ballard', function(req, res) {
+//   res.json(db.ballard);
+// });
 
-app.get('/fremont', function(req, res) {
-  res.json(db.fremont);
-});
+// app.get('/fremont', function(req, res) {
+//   res.json(db.fremont);
+// });
 
-app.get('/ballard/:id', function(req, res){
-  var id = req.params.id;
-  db.ballard.forEach(function(thing){
-    if(thing.id === id){
-      res.json(thing);
-    }
-  });
-});
+// app.get('/ballard/:id', function(req, res){
+//   var id = req.params.id;
+//   db.ballard.forEach(function(thing){
+//     if(thing.id === id){
+//       res.json(thing);
+//     }
+//   });
+// });
 
-app.get('/fremont/:id', function(req, res){
-  var id = req.params.id;
-  db.fremont.forEach(function(thing){
-    if(thing.id === id){
-      res.json(thing);
-    }
-  });
-});
+// app.get('/fremont/:id', function(req, res){
+//   var id = req.params.id;
+//   db.fremont.forEach(function(thing){
+//     if(thing.id === id){
+//       res.json(thing);
+//     }
+//   });
+// });
 
-app.get('/downtown/:id', function(req, res){
-  var id = req.params.id;
-  db.downtown.forEach(function(thing){
-    if(thing.id === id){
-      res.json(thing);
-    }
-  });
-});
+// app.get('/downtown/:id', function(req, res){
+//   var id = req.params.id;
+//   db.downtown.forEach(function(thing){
+//     if(thing.id === id){
+//       res.json(thing);
+//     }
+//   });
+// });
 
-app.get('/capitolHill/:id', function(req, res){
-  var id = req.params.id;
-  db.capitolHill.forEach(function(thing){
-    if(thing.id === id){
-      res.json(thing);
-    }
-  });
-});
+// app.get('/capitolHill/:id', function(req, res){
+//   var id = req.params.id;
+//   db.capitolHill.forEach(function(thing){
+//     if(thing.id === id){
+//       res.json(thing);
+//     }
+//   });
+// });
 
-app.get('/queenAnne/:id', function(req, res){
-  var id = req.params.id;
-  db.queenAnne.forEach(function(thing){
-    if(thing.id === id){
-      res.json(thing);
-    }
-  });
-});
+// app.get('/queenAnne/:id', function(req, res){
+//   var id = req.params.id;
+//   db.queenAnne.forEach(function(thing){
+//     if(thing.id === id){
+//       res.json(thing);
+//     }
+//   });
+// });
 
 
-app.listen(3000, function() {
-  console.log('server started');
-});
+// // app.listen(3000, function() {
+// //   console.log('server started');
+// // });

@@ -6,6 +6,7 @@
 <body>
   <h3>Choose a Neighborhood(s)</h3>
   <h3>Choose a Cost Range(s)</h3>
+  <p id="announce"></p>
   <form>
     <div class='neighborhood'>
       <input type='checkbox' name='neighborhood' value='Capitol Hill'>Capitol Hill<br>
@@ -13,13 +14,14 @@
       <input type='checkbox' name='neighborhood' value='Downtown'>Downtown<br>
       <input type='checkbox' name='neighborhood' value='Ballard'>Ballard<br>
       <input type='checkbox' name='neighborhood' value='Fremont'>Fremont<br>
-    </div>
-    <div class='cost'>
-      <input type='checkbox' name='cost' value='0-20'>$0-$20<br>
-      <input type='checkbox' name='cost' value='20-50'>$20-$50<br>
-      <input type='checkbox' name='cost' value='50+'>$50+<br>
-      <input type='submit' value='Submit'>
+      <input id="submitIt"   type='submit' value='Submit'>
     </div>
   </form>
+  <div id="showResults"></div>
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js'></script>
+  <script type="text/javascript" src="todo.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
