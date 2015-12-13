@@ -12,7 +12,7 @@ var db = {
       type: 'bar',
       outdoor: false,
       kidfriendly: false,
-      url: 'http://www.pineboxbar.com/'
+      url: 'http://www.pineboxbar.com'
     },
     {
       id: 'lilWoodys',
@@ -21,7 +21,7 @@ var db = {
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://lilwoodys.com/'
+      url: 'http://lilwoodys.com'
     },
     {
       id: 'lindas',
@@ -30,7 +30,7 @@ var db = {
       type: 'bar',
       outdoor: true,
       kidfriendly: false,
-      url: 'http://lindastavern.com/'
+      url: 'http://lindastavern.com'
     },
     {
       id: 'montana',
@@ -39,7 +39,7 @@ var db = {
       type: 'bar',
       outdoor: true,
       kidfriendly: false,
-      url: 'http://montanainseattle.com/'
+      url: 'http://montanainseattle.com'
     },
     {
       id: 'neumos',
@@ -48,7 +48,7 @@ var db = {
       type: 'entertainment',
       outdoor: false,
       kidfriendly: false,
-      url: 'http://neumos.com/'
+      url: 'http://neumos.com'
     },
     {
       id: 'barboza',
@@ -57,7 +57,7 @@ var db = {
       type: 'entertainment',
       outdoor: false,
       kidfriendly: false,
-      url: 'http://thebarboza.com/'
+      url: 'http://thebarboza.com'
     },
     {
       id: 'calAndersonPark',
@@ -75,7 +75,7 @@ var db = {
       type: 'bar',
       outdoor: true,
       kidfriendly: false,
-      url: 'http://www.garagebilliards.com/mambo/'
+      url: 'http://www.garagebilliards.com/mambo'
     },
     {
       id: 'volunteerPark',
@@ -93,7 +93,7 @@ var db = {
       type: 'museum',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://fryemuseum.org/'
+      url: 'http://fryemuseum.org'
     },
     {
       id: 'tacosChukis',
@@ -102,7 +102,7 @@ var db = {
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
-      url: 'https://www.facebook.com/TacosChukis/'
+      url: 'https://www.facebook.com/TacosChukis'
     },
     {
       id: 'dicks',
@@ -111,7 +111,7 @@ var db = {
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.ddir.com/'
+      url: 'http://www.ddir.com'
     },
     {
       id: 'soi',
@@ -120,7 +120,7 @@ var db = {
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.soicapitolhill.com/'
+      url: 'http://www.soicapitolhill.com'
     },
     {
       id: 'victrola',
@@ -129,7 +129,7 @@ var db = {
       type: 'cafe',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.victrolacoffee.com/'
+      url: 'http://www.victrolacoffee.com'
     },
     {
       id: 'elliotBayBookStore',
@@ -138,7 +138,7 @@ var db = {
       type: 'library',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.elliottbaybook.com/'
+      url: 'http://www.elliottbaybook.com'
     },
     {
       id: 'elysianBrewing',
@@ -147,7 +147,7 @@ var db = {
       type: 'bar',
       outdoor: false,
       kidfriendly: false,
-      url: 'http://www.elysianbrewing.com/'
+      url: 'http://www.elysianbrewing.com'
     },
     {
       id: 'momiji',
@@ -156,7 +156,7 @@ var db = {
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.momijiseattle.com/'
+      url: 'http://www.momijiseattle.com'
     },
     {
       id: 'stumptownCoffee',
@@ -165,7 +165,7 @@ var db = {
       type: 'cafe',
       outdoor: true,
       kidfriendly: true,
-      url: 'https://www.stumptowncoffee.com/'
+      url: 'https://www.stumptowncoffee.com'
     },
     {
       id: 'rheinHaus',
@@ -174,7 +174,7 @@ var db = {
       type: 'restaurant',
       outdoor: true,
       kidfriendly: false,
-      url: 'http://rheinhausseattle.com/'
+      url: 'http://rheinhausseattle.com'
     },
     {
       id: 'mollyMoons',
@@ -183,7 +183,7 @@ var db = {
       type: 'cafe',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.mollymoon.com/'
+      url: 'http://www.mollymoon.com'
     },
     {
       id: 'everydayMusic',
@@ -192,7 +192,7 @@ var db = {
       type: 'shopping',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.everydaymusic.com/'
+      url: 'http://www.everydaymusic.com'
     },
     {
       id: 'adasTechnicalBooksCafe',
@@ -201,7 +201,7 @@ var db = {
       type: 'cafe',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.seattletechnicalbooks.com/'
+      url: 'http://www.seattletechnicalbooks.com'
     },
     {
       id: 'oola',
@@ -210,7 +210,7 @@ var db = {
       type: 'bar',
       outdoor: false,
       kidfriendly: false,
-      url: 'http://ooladistillery.com/'
+      url: 'http://ooladistillery.com'
     },
     {
       id: 'sunDistillery',
@@ -219,7 +219,7 @@ var db = {
       type: 'bar',
       outdoor: true,
       kidfriendly: false,
-      url: 'http://www.sunliquor.com/'
+      url: 'http://www.sunliquor.com'
     },
     {
       id: 'lostLake',
@@ -228,7 +228,7 @@ var db = {
       type: 'restaurant',
       outdoor: false,
       kidfriendly: false,
-      url: 'http://lostlakecafe.com/'
+      url: 'http://lostlakecafe.com'
     },
     {
       id: 'bakeryNouveau',
@@ -237,7 +237,7 @@ var db = {
       type: 'cafe',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.bakerynouveau.com/welcome/'
+      url: 'http://www.bakerynouveau.com/welcome'
     }
   ],
   queenAnne: [
@@ -248,7 +248,7 @@ var db = {
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
-      url:'http://www.seattlecenter.com/'
+      url:'http://www.seattlecenter.com'
     },
     {
       id: 'chihulyGlass',
@@ -257,7 +257,7 @@ var db = {
       type: 'museum',
       outdoor: false,
       kidfriendly: true,
-      url:'http://www.chihulygardenandglass.com/'
+      url:'http://www.chihulygardenandglass.com'
     },
     {
       id: 'keyArena',
@@ -266,7 +266,7 @@ var db = {
       type: 'entertainment',
       outdoor: false,
       kidfriendly: true,
-      url:'http://www.keyarena.com/'
+      url:'http://www.keyarena.com'
     },
     {
       id: 'hulaHula',
@@ -275,7 +275,7 @@ var db = {
       type: 'bar',
       outdoor: false,
       kidfriendly: false,
-      url:'http://hulahula.org/'
+      url:'http://hulahula.org'
     },
     {
       id: 'spaceNeedle',
@@ -284,7 +284,7 @@ var db = {
       type: 'attraction',
       outdoor: false,
       kidfriendly: true,
-      url:'http://www.spaceneedle.com/home/'
+      url:'http://www.spaceneedle.com/home'
     },
     {
       id: 'emp',
@@ -293,7 +293,7 @@ var db = {
       type: 'museum',
       outdoor: false,
       kidfriendly: true,
-      url:'http://www.empmuseum.org/'
+      url:'http://www.empmuseum.org'
     },
     {
       id: 'pacificScienceCenter',
@@ -302,7 +302,7 @@ var db = {
       type: 'museum',
       outdoor: false,
       kidfriendly: true,
-      url:'https://www.pacificsciencecenter.org/'
+      url:'https://www.pacificsciencecenter.org'
     },
     {
       id: 'kerryPark',
@@ -314,31 +314,31 @@ var db = {
       url:'http://www.seattle.gov/parks/park_detail.asp?ID=342'
     },
     {
-      id: 'qaBeerhall',
+      id: 'queenAnneBeerhall',
       name: 'Queen Anne Beerhall',
       cost: 1,
       type: 'bar',
       outdoor: false,
       kidfriendly: false,
-      url:'http://www.queenannebeerhall.com/'
+      url:'http://www.queenannebeerhall.com'
     },
     {
-      id: 'uptEspresso',
+      id: 'uptownEspresso',
       name: 'Uptown Espresso',
       cost: 1,
       type: 'cafe',
       outdoor: false,
       kidfriendly: true,
-      url:'http://www.velvetfoam.com/'
+      url:'http://www.velvetfoam.com'
     },
     {
       id: 'elDiablo',
-      name:'El Diablo Coffe Co',
+      name:'El Diablo Coffee Co',
       cost: 1,
       type: 'cafe',
       outdoor: false,
       kidfriendly: true,
-      url:'http://www.eldiablocoffee.com/'
+      url:'http://www.eldiablocoffee.com'
     },
     {
       id:'caffeLadro',
@@ -347,7 +347,7 @@ var db = {
       type: 'cafe',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.caffeladro.com/'
+      url: 'http://www.caffeladro.com'
     },
     {
       id:'toulousePetite',
@@ -356,7 +356,7 @@ var db = {
       type: 'restaurant',
       outdoor: false,
       kidfriendly: false,
-      url:'http://toulousepetit.com/'
+      url:'http://toulousepetit.com'
     },
     {
       id:'metMarket',
@@ -368,7 +368,7 @@ var db = {
       url: 'https://metropolitan-market.com/home.php?'
     },
     {
-      id: 'mEdPark',
+      id: 'myrtleEdwardsPark',
       name: 'Myrtle Edwards Park',
       cost: 1,
       type: 'park',
@@ -377,7 +377,7 @@ var db = {
       url: 'http://www.seattle.gov/parks/park_detail.asp?ID=311'
     },
     {
-      id: 'qaLibrary',
+      id: 'queenAnnePublicLibrary',
       name: 'Queen Anne Public Library',
       cost: 1,
       type: 'library',
@@ -392,7 +392,7 @@ var db = {
       type: 'shopping',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.chocolopolis.com/'
+      url: 'http://www.chocolopolis.com'
     },
     {
       id: 'macrinaBakery',
@@ -401,7 +401,7 @@ var db = {
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.macrinabakery.com/'
+      url: 'http://www.macrinabakery.com'
     },
     {
       id: 'meccaCafe',
@@ -410,7 +410,7 @@ var db = {
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://mecca-cafe.com/'
+      url: 'http://mecca-cafe.com'
     },
     {
       id:'cederbergTeaHouse',
@@ -419,16 +419,16 @@ var db = {
       type: 'cafe',
       outdoor: false,
       kidfriendly: true,
-      url:'http://cederbergteahouse.com/'
+      url:'http://cederbergteahouse.com'
     },
     {
-      id:'howToCookaWolf',
+      id:'howToCookAWolf',
       name: 'How to Cook a Wolf',
       cost: 2,
       type: 'restaurant',
       outdoor: false,
       kidfriendly: false,
-      url: 'http://www.ethanstowellrestaurants.com/locations/how-to-cook-a-wolf/'
+      url: 'http://www.ethanstowellrestaurants.com/locations/how-to-cook-a-wolf'
     },
     {
       id: 'mezcaleriaOaxaca',
@@ -446,7 +446,7 @@ var db = {
       type: 'restaurant',
       outdoor: false,
       kidfriendly: false,
-      url:'http://canlis.com/'
+      url:'http://canlis.com'
     }
   ],
   downtown: [
@@ -457,7 +457,7 @@ var db = {
       type: 'entertainment',
       outdoor: false,
       kidfriendly: true,
-      url: 'https://www.cinerama.com/'
+      url: 'https://www.cinerama.com'
     },
     {
       id:'steinbrueckGallery',
@@ -466,7 +466,7 @@ var db = {
       type: 'museum',
       outdoor: false,
       kidfriendly: false,
-      url:'http://www.steinbruecknativegallery.com/'
+      url:'http://www.steinbruecknativegallery.com'
     },
     {
       id: 'westLakeShoppingCenter',
@@ -484,7 +484,7 @@ var db = {
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
-      url:'http://pikeplacemarket.org/'
+      url:'http://pikeplacemarket.org'
     },
     {
       id: 'olympicSculpturePark',
@@ -502,7 +502,7 @@ var db = {
       type: 'entertainment',
       outdoor: true,
       kidfriendly: true,
-      url:'http://seattle.mariners.mlb.com/sea/ballpark/'
+      url:'http://seattle.mariners.mlb.com/sea/ballpark'
     },
     {
       id: 'centuryLinkField',
@@ -511,7 +511,7 @@ var db = {
       type: 'entertainment',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.centurylinkfield.com/'
+      url: 'http://www.centurylinkfield.com'
     },
     {
       id:'waterFront',
@@ -529,7 +529,7 @@ var db = {
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://seattlegreatwheel.com/'
+      url: 'http://seattlegreatwheel.com'
     },
     {
       id: 'columbiaCenter',
@@ -538,7 +538,7 @@ var db = {
       type: 'attraction',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.skyviewobservatory.com/'
+      url: 'http://www.skyviewobservatory.com'
     },
     {
       id: 'ferryTerminal',
@@ -547,7 +547,7 @@ var db = {
       type: 'attraction',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.wsdot.wa.gov/ferries/'
+      url: 'http://www.wsdot.wa.gov/ferries'
     },
     {
       id: 'benaroyaHall',
@@ -565,7 +565,7 @@ var db = {
       type: 'restaurant',
       outdoor: false,
       kidfriendly: false,
-      url: 'http://www.umisakehouse.com/'
+      url: 'http://www.umisakehouse.com'
     },
     {
       id: 'sam',
@@ -574,7 +574,7 @@ var db = {
       type: 'museum',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.seattleartmuseum.org/'
+      url: 'http://www.seattleartmuseum.org'
     },
     {
       id: 'seattleAquarium',
@@ -583,7 +583,7 @@ var db = {
       type: 'attraction',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.seattleaquarium.org/'
+      url: 'http://www.seattleaquarium.org'
     },
     {
       id: 'pikeBrewingCo',
@@ -592,16 +592,16 @@ var db = {
       type: 'bar',
       outdoor: false,
       kidfriendly: false,
-      url: 'http://pikebrewing.com/'
+      url: 'http://pikebrewing.com'
     },
     {
       id: 'steelheadDiner',
-      name: 'Steelhead Dinner',
+      name: 'Steelhead Diner',
       cost: 2,
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.steelheaddiner.com/'
+      url: 'http://www.steelheaddiner.com'
     },
     {
       id: 'piroshkyPiroshky',
@@ -610,7 +610,7 @@ var db = {
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
-      url: 'https://www.piroshkybakery.com/'
+      url: 'https://www.piroshkybakery.com'
     },
     {
       id: 'showbox',
@@ -619,7 +619,7 @@ var db = {
       type: 'entertainment',
       outdoor: false,
       kidfriendly: false,
-      url: 'http://www.showboxpresents.com/'
+      url: 'http://www.showboxpresents.com'
     },
     {
       id: 'paramount',
@@ -637,7 +637,7 @@ var db = {
       type: 'entertainment',
       outdoor: false,
       kidfriendly: false,
-      url: 'http://www.thecrocodile.com/'
+      url: 'http://www.thecrocodile.com'
     },
     {
       id: 'moore',
@@ -664,7 +664,7 @@ var db = {
       type: 'attraction',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.undergroundtour.com/'
+      url: 'http://www.undergroundtour.com'
     },
     {
       id: 'pioneerSquare',
@@ -673,16 +673,16 @@ var db = {
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.pioneersquare.org/'
+      url: 'http://www.pioneersquare.org'
     },
     {
-      id: 'scw',
+      id: 'seattleCoffeeWorks',
       name: 'Seattle Coffee Works',
       cost: 1,
       type: 'cafe',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://www.seattlecoffeeworks.com/'
+      url: 'http://www.seattlecoffeeworks.com'
     },
     {
       id: 'biscuitBitch',
@@ -691,13 +691,13 @@ var db = {
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
-      url: 'http://biscuitbitch.com/'
+      url: 'http://biscuitbitch.com'
     }
   ],
   ballard: [
     {
       id: 'goldenGardens',
-      name: 'golden gardens',
+      name: 'Golden Gardens',
       cost: 1,
       type: 'attraction',
       outdoor: true,
@@ -706,7 +706,7 @@ var db = {
     },
     {
       id: 'populuxe',
-      name: 'populuxe brewing',
+      name: 'Populuxe Brewing',
       cost: 1,
       type: 'bar',
       outdoor: true,
@@ -715,7 +715,7 @@ var db = {
     },
     {
       id: 'reubens',
-      name: 'reubens brewing',
+      name: 'Reubens Brewing',
       cost: 1,
       type: 'bar',
       outdoor: true,
@@ -724,7 +724,7 @@ var db = {
     },
     {
       id: 'peddler',
-      name: 'peddler brewing',
+      name: 'Peddler Brewing',
       cost: 1,
       type: 'bar',
       outdoor: true,
@@ -733,7 +733,7 @@ var db = {
     },
     {
       id: 'locks',
-      name: 'ballard locks',
+      name: 'Ballard Locks',
       cost: 1,
       type: 'attraction',
       outdoor: true,
@@ -742,7 +742,7 @@ var db = {
     },
     {
       id: 'shilsholeBay',
-      name: 'shilshole bay',
+      name: 'Shilshole Bay',
       cost: 1,
       type: 'attraction',
       outdoor: true,
@@ -751,7 +751,7 @@ var db = {
     },
       {
       id: 'tractorTavern',
-      name: 'tractor tavern',
+      name: 'Tractor Tavern',
       cost: 2,
       type: 'entertainment',
       outdoor: false,
@@ -760,7 +760,7 @@ var db = {
     },
       {
       id: 'nordicmuseum',
-      name: 'nordic heritage museum',
+      name: 'Nordic Heritage Museum',
       cost: 1,
       type: 'museum',
       outdoor: true,
@@ -778,7 +778,7 @@ var db = {
     },
       {
       id: 'sonicBoom',
-      name: 'sonic boom',
+      name: 'Sonic Boom',
       cost: 1,
       type: 'shopping',
       outdoor: true,
@@ -787,7 +787,7 @@ var db = {
     },
       {
       id: 'consignmentStore',
-      name: 'ballard consignment store',
+      name: 'Ballard Consignment Store',
       cost: 1,
       type: 'shopping',
       outdoor: true,
@@ -796,7 +796,7 @@ var db = {
     },
       {
       id: 'laIsla',
-      name: 'la isla',
+      name: 'La Isla',
       cost: 1,
       type: 'restaurant',
       outdoor: true,
@@ -805,7 +805,7 @@ var db = {
     },
       {
       id: 'walrusAndTheCarpenter',
-      name: 'walrus and the carpenter',
+      name: 'Walrus and the Carpenter',
       cost: 1,
       type: 'restaurant',
       outdoor: true,
@@ -814,7 +814,7 @@ var db = {
     },
       {
       id: 'ballardMarket',
-      name: 'ballard market',
+      name: 'Ballard Market',
       cost: 1,
       type: 'shopping',
       outdoor: true,
@@ -823,7 +823,7 @@ var db = {
     },
       {
       id: 'ballardPizzaCompany',
-      name: 'ballard pizza company',
+      name: 'Ballard Pizza Company',
       cost: 1,
       type: 'restaurant',
       outdoor: true,
@@ -832,7 +832,7 @@ var db = {
     },
     {
       id: 'majesticBayTheatres',
-      name: 'majestic bay theatres',
+      name: 'Majestic Bay Theatres',
       cost: 1,
       type: 'entertainment',
       outdoor: true,
@@ -841,7 +841,7 @@ var db = {
     },
         {
       id: 'stoneGardens',
-      name: 'stone gardens',
+      name: 'Stone Gardens',
       cost: 1,
       type: 'attraction',
       outdoor: true,
@@ -850,7 +850,7 @@ var db = {
     },
         {
       id: 'corePowerYoga',
-      name: 'core power yoga',
+      name: 'Core Power Yoga',
       cost: 1,
       type: 'entertainment',
       outdoor: true,
@@ -859,7 +859,7 @@ var db = {
     },
         {
       id: 'ballardFarmersMarket',
-      name: 'ballard farmers market',
+      name: 'Ballard Farmers Market',
       cost: 1,
       type: 'shopping',
       outdoor: true,
@@ -869,7 +869,7 @@ var db = {
     },
         {
       id: 'hotCakes',
-      name: 'hot cakes',
+      name: 'Hot Cakes',
       cost: 1,
       type: 'restaurant',
       outdoor: true,
@@ -878,7 +878,7 @@ var db = {
     },
         {
       id: 'ballardAvenueHistoricDistrict',
-      name: 'ballard avenue historic district',
+      name: 'Ballard Avenue Historic District',
       cost: 1,
       type: 'attraction',
       outdoor: true,
@@ -887,7 +887,7 @@ var db = {
     },
         {
       id: 'ballardCoffeeWorks',
-      name: 'ballard coffee works',
+      name: 'Ballard Coffee Works',
       cost: 1,
       type: 'cafe',
       outdoor: true,
@@ -896,7 +896,7 @@ var db = {
     },
         {
       id: 'fishermansTerminal',
-      name: 'fishermans terminal',
+      name: 'Fishermans Terminal',
       cost: 1,
       type: 'attraction',
       outdoor: true,
@@ -905,7 +905,7 @@ var db = {
     },
         {
       id: 'stoupBrewing',
-      name: 'stoup brewing',
+      name: 'Stoup Brewing',
       cost: 1,
       type: 'bar',
       outdoor: true,
@@ -914,7 +914,7 @@ var db = {
     },
          {
       id: 'unBien',
-      name: 'un bien',
+      name: 'Un Bien',
       cost: 1,
       type: 'restaurant',
       outdoor: true,
@@ -923,7 +923,7 @@ var db = {
     },
          {
       id: 'ballardBeerCompany',
-      name: 'ballard beer company',
+      name: 'Ballard Beer Company',
       cost: 1,
       type: 'bar',
       outdoor: true,
@@ -932,7 +932,7 @@ var db = {
     },
     {
       id: 'mightyODonuts',
-      name: 'mighty o donuts',
+      name: 'Mighty O Donuts',
       cost: 1,
       type: 'cafe',
       outdoor: true,
@@ -941,7 +941,7 @@ var db = {
     },
          {
       id: 'burkeGilmanTrail',
-      name: 'burke gilman trail',
+      name: 'Burke Gilman Trail',
       cost: 1,
       type: 'attraction',
       outdoor: true,
@@ -950,7 +950,7 @@ var db = {
     },
          {
       id: 'bauhaus',
-      name: 'bauhaus',
+      name: 'Bauhaus',
       cost: 1,
       type: 'cafe',
       outdoor: true,
@@ -961,7 +961,7 @@ var db = {
     fremont: [
         {
       id: 'fremontBrewingCompany',
-      name: 'fremont brewing company',
+      name: 'Fremont Brewing Company',
       cost: 1,
       type: 'bar',
       outdoor: true,
@@ -970,7 +970,7 @@ var db = {
     },
         {
       id: 'fremontVintageMall',
-      name: 'fremont vintage mall',
+      name: 'Fremont Vintage Mall',
       cost: 1,
       type: 'shopping',
       outdoor: true,
@@ -979,16 +979,16 @@ var db = {
     },
         {
       id: 'cafeTurko',
-      name: 'cafe turko',
+      name: 'Cafe Turko',
       cost: 1,
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://cafe-turko.com/'
+      url: 'http://cafe-turko.com'
     },
         {
       id: 'milsteadCoffeeCompany',
-      name: 'milstead coffee company',
+      name: 'Milstead Coffee Company',
       cost: 1,
       type: 'cafe',
       outdoor: true,
@@ -997,7 +997,7 @@ var db = {
     },
     {
       id: 'jiveTimeRecords',
-      name: 'jive time records',
+      name: 'Jive Time Records',
       cost: 1,
       type: 'shopping',
       outdoor: true,
@@ -1006,7 +1006,7 @@ var db = {
     },
          {
       id: 'dustyStrings',
-      name: 'dusty strings',
+      name: 'Dusty Strings',
       cost: 1,
       type: 'shopping',
       outdoor: true,
@@ -1015,7 +1015,7 @@ var db = {
     },
         {
       id: 'pcc',
-      name: 'pcc',
+      name: 'PCC',
       cost: 1,
       type: 'shopping',
       outdoor: true,
@@ -1024,43 +1024,43 @@ var db = {
     },
         {
       id: 'fremontFarmersMarket',
-      name: 'fremont farmers market',
+      name: 'Fremont Farmers Market',
       cost: 1,
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.fremontmarket.com/'
+      url: 'http://www.fremontmarket.com'
     },
         {
       id: 'norms',
-      name: 'norms',
+      name: 'Norms Eatery and Alehouse',
       cost: 1,
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://normseatery.com/'
+      url: 'http://normseatery.com'
     },
       {
       id: 'outlanderBrewing',
-      name: 'outlanderBrewing',
+      name: 'Outlander Brewing',
       cost: 1,
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://outlanderbrewing.com/'
+      url: 'http://outlanderbrewing.com'
     },
     {
       id: 'nectarLounge',
-      name: 'nectar lounge',
+      name: 'Nectar Lounge',
       cost: 1,
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://nectarlounge.com/'
+      url: 'http://nectarlounge.com'
     },
       {
       id: 'theBallroom',
-      name: 'the ballroom',
+      name: 'The Ballroom',
       cost: 1,
       type: 'bar',
       outdoor: true,
@@ -1069,7 +1069,7 @@ var db = {
     },
       {
       id: 'statueOfLenin',
-      name: 'statue of lenin',
+      name: 'Statue of Lenin',
       cost: 1,
       type: 'attraction',
       outdoor: true,
@@ -1078,34 +1078,34 @@ var db = {
     },
       {
       id: 'theoChocolateCompany',
-      name: 'theo chocolate company',
+      name: 'Theo Chocolate Company',
       cost: 1,
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
-      url: 'https://www.theochocolate.com/'
+      url: 'https://www.theochocolate.com'
     },
       {
       id: 'essentialBakingCompany',
-      name: 'essential baking company',
+      name: 'Essential Baking Company',
       cost: 1,
       type: 'cafe',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://essentialbaking.com/'
+      url: 'http://essentialbaking.com'
     },
       {
-      id: 'frellardPizzaCompany',
-      name: 'frellard pizza company',
+      id: 'frelardPizzaCompany',
+      name: 'Frelard Pizza Company',
       cost: 1,
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.ballardpizzacompany.com/'
+      url: 'http://www.ballardpizzacompany.com'
     },
       {
       id: 'gasworks',
-      name: 'gasworks',
+      name: 'Gasworks Park',
       cost: 1,
       type: 'attraction',
       outdoor: true,
@@ -1114,16 +1114,16 @@ var db = {
     },
       {
       id: 'recycledCycles',
-      name: 'recycled cycles',
+      name: 'Recycled Cycles',
       cost: 1,
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.recycledcycles.com/'
+      url: 'http://www.recycledcycles.com'
     },
       {
       id: 'burkeGilmanTrail',
-      name: 'burke gilman trail',
+      name: 'Burke Gilman Trail',
       cost: 1,
       type: 'attraction',
       outdoor: true,
@@ -1132,16 +1132,16 @@ var db = {
     },
          {
       id: 'fremontTroll',
-      name: 'fremont troll',
+      name: 'Fremont Troll',
       cost: 1,
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://fremont.com/about/fremonttroll-html/'
+      url: 'http://fremont.com/about/fremonttroll-html'
     },
     {
       id: 'hotelHotel',
-      name: 'hotel hotel',
+      name: 'Hotel Hotel',
       cost: 1,
       type: 'bar',
       outdoor: true,
@@ -1150,7 +1150,7 @@ var db = {
     },
       {
       id: 'luckysPho',
-      name: 'lucky\'s pho',
+      name: 'Luckys Pho',
       cost: 1,
       type: 'restaurant',
       outdoor: true,
@@ -1159,21 +1159,21 @@ var db = {
     },
       {
       id: 'revel',
-      name: 'revel',
+      name: 'Revel',
       cost: 1,
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.revelseattle.com/'
+      url: 'http://www.revelseattle.com'
     },
       {
       id: 'chisoSushi',
-      name: 'chiso sushi',
+      name: 'Chiso Sushi',
       cost: 1,
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
-      url:'http://www.chisofremont.com/'
+      url:'http://www.chisofremont.com'
     }
   ]
 };
