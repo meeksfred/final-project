@@ -30,7 +30,7 @@
 //   }
 // }
 // }
- var array = [];
+var array = [];
 $(document).ready(function() {
 
   $("input:radio[name=neighborhood]").click(function(){
@@ -56,6 +56,7 @@ $(document).ready(function() {
                 $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
                 $('#showResults').append('</tr>');
             }
+                console.log(array[gg].cost);
           }
             // else if ($selectedCost === array[gg].cost) {
             //   $('#showResults').append('<tr>');
