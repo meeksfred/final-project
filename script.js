@@ -33,61 +33,68 @@
 
 $(document).ready(function() {
 
-  $('#submitIt').click(function(event) {
-    event.preventDefault();
+
+  $("input:radio[name=neighborhood]").click(function(){
+
+    $('#showResults').empty();
     $('#showResults').append('<table></table>');
-      $('#showResults').append('<thead><tr><th>' + 'Name/Website' + '</th><th>' + 'Cost' + '</th> </tr></thead>');
-    $.each($("input[type='checkbox']:checked"), function(){
-      var matches = [];
-      var $selectedPlace = $(this).val();
-      matches.push($selectedPlace);
-      matches.forEach(function(place){
-        if(place === 'fremont'){
-        for(var bb = 0; bb < db.fremont.length; bb+= 1){
-        console.log(db.fremont[bb].name);
+    $('#showResults').append('<thead><tr><th>' + 'Name/Website' + '</th><th>' + 'Cost' + '</th> </tr></thead>');
+
+    var $selectedPlace = $(this).val();
+      if($selectedPlace === 'fremont'){
+      for(var bb = 0; bb < db.fremont.length; bb+= 1){
+      console.log(db.fremont[bb].name);
+      $('#showResults').append('<tr>');
+      $('#showResults').append('<td>' + '<a href=' + db.fremont[bb].url + '>' + db.fremont[bb].name + '</a>' + '</td>');
+      $('#showResults').append('<td>' + db.fremont[bb].cost + '</td>');
+      $('#showResults').append('</tr>');
+    }
+    } else if ($selectedPlace === 'capitolHill'){
+      for(var bb = 0; bb < db.capitolHill.length; bb+= 1){
+        console.log(db.capitolHill[bb].name);
         $('#showResults').append('<tr>');
-        $('#showResults').append('<td>' + '<a href=' + db.fremont[bb].url + '>' + db.fremont[bb].name + '</a>' + '</td>');
-        $('#showResults').append('<td>' + db.fremont[bb].cost + '</td>');
+        $('#showResults').append('<td>' + '<a href=' + db.capitolHill[bb].url + '>' + db.capitolHill[bb].name + '</a>' + '</td>');
+        $('#showResults').append('<td>' + db.capitolHill[bb].cost + '</td>');
         $('#showResults').append('</tr>');
       }
-      } else if (place === 'capitolHill'){
-        for(var bb = 0; bb < db.capitolHill.length; bb+= 1){
-          console.log(db.capitolHill[bb].name);
-          $('#showResults').append('<tr>');
-          $('#showResults').append('<td>' + '<a href=' + db.capitolHill[bb].url + '>' + db.capitolHill[bb].name + '</a>' + '</td>');
-          $('#showResults').append('<td>' + db.capitolHill[bb].cost + '</td>');
-          $('#showResults').append('</tr>');
+    } else if ($selectedPlace === 'ballard'){
+        for(var bb = 0; bb < db.ballard.length; bb+= 1){
+        console.log(db.ballard[bb].name);
+        $('#showResults').append('<tr>');
+        //writing an anchor tag (activity name) then attaching link
+        $('#showResults').append('<td>' + '<a href=' + db.ballard[bb].url + ' target="_blank">' + db.ballard[bb].name + '</a>' + '</td>');
+        $('#showResults').append('<td>' + db.ballard[bb].cost + '</td>');
+        $('#showResults').append('</tr>');
         }
-      } else if (place === 'ballard'){
-          for(var bb = 0; bb < db.ballard.length; bb+= 1){
-          console.log(db.ballard[bb].name);
-          $('#showResults').append('<tr>');
-          //writing an anchor tag (activity name) then attaching link
-          $('#showResults').append('<td>' + '<a href=' + db.ballard[bb].url + ' target="_blank">' + db.ballard[bb].name + '</a>' + '</td>');
-          $('#showResults').append('<td>' + db.ballard[bb].cost + '</td>');
-          $('#showResults').append('</tr>');
-          }
-      } else if (place === 'downtown'){
-          for(var bb = 0; bb < db.downtown.length; bb+= 1){
-          console.log(db.downtown[bb].name);
-          $('#showResults').append('<tr>');
-          $('#showResults').append('<td>' + '<a href=' + db.downtown[bb].url + '>' + db.downtown[bb].name + '</a>' + '</td>');
-          $('#showResults').append('<td>' + db.downtown[bb].cost + '</td>');
-          $('#showResults').append('</tr>');
-          }
-      } else if (place === 'queenAnne'){
-          for(var bb = 0; bb < db.queenAnne.length; bb+= 1){
-          console.log(db.queenAnne[bb].name);
-          $('#showResults').append('<tr>');
-          $('#showResults').append('<td>' + '<a href=' + db.queenAnne[bb].url + '>' + db.queenAnne[bb].name + '</a>' + '</td>');
-          $('#showResults').append('<td>' + db.queenAnne[bb].cost + '</td>');
-          $('#showResults').append('</tr>');
-          }
+    } else if ($selectedPlace === 'downtown'){
+        for(var bb = 0; bb < db.downtown.length; bb+= 1){
+        console.log(db.downtown[bb].name);
+        $('#showResults').append('<tr>');
+        $('#showResults').append('<td>' + '<a href=' + db.downtown[bb].url + '>' + db.downtown[bb].name + '</a>' + '</td>');
+        $('#showResults').append('<td>' + db.downtown[bb].cost + '</td>');
+        $('#showResults').append('</tr>');
         }
-      });
+    } else if ($selectedPlace === 'queenAnne'){
+        for(var bb = 0; bb < db.queenAnne.length; bb+= 1){
+        console.log(db.queenAnne[bb].name);
+        $('#showResults').append('<tr>');
+        $('#showResults').append('<td>' + '<a href=' + db.queenAnne[bb].url + '>' + db.queenAnne[bb].name + '</a>' + '</td>');
+        $('#showResults').append('<td>' + db.queenAnne[bb].cost + '</td>');
+        $('#showResults').append('</tr>');
+        }
+      }
     });
+        //this code will only be run after an initial neighborhood(s) has been
+        //selected. Once the user hits submit to find activities in a neighborhood,
+        //the neighborhood checkboxes will disappear.
+        //I'll then loop through the matches array to determine how many
+         // $('.neighborhood').remove();
+         // for (i = 0; i < 3; i++) {
+         // $('<input type="checkbox" name="costCheckbox" value=""/>').appendTo('.cost');
+         // }
+         // $('<input type="button" name="costButton" value=""/>').appendTo('.cost');
   });
-});
+
 
 
 

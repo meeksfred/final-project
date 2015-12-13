@@ -10,21 +10,24 @@
     <div id="words">
       <p>Hello and welcome to UPIK! We love Seattle and want to share some of our city's best attractions with you. Whether you're new to town, entertaining visitors, or just want to do something spontaneous, UPIK ensures you don't get stuck with 'I don't know, you pick!' syndrome.</p>
     </div>
+    <img id="lilarrow" src="images/arrowdown.jpg">
   </section>
   <h3>Choose a Neighborhood(s)</h3>
   <h3>Choose a Cost Range(s)</h3>
   <p id="announce"></p>
   <form>
-    <div class='neighborhood'><!-- //add fieldset -->
-      <input type='checkbox' name='neighborhood' value='capitolHill'>Capitol Hill<br>
-      <input type='checkbox' name='neighborhood' value='queenAnne'>Queen Anne<br>
-      <input type='checkbox' name='neighborhood' value='downtown'>Downtown<br>
-      <input type='checkbox' name='neighborhood' value='ballard'>Ballard<br>
-      <input type='checkbox' name='neighborhood' value='fremont'>Fremont<br>
-      <input id="submitIt"   type='submit' value='Submit'>
+    <div class='cost'></div>
+    <div class='hood'><!-- //add fieldset -->
+      <input type='radio' name='neighborhood' value='capitolHill'>Capitol Hill<br>
+      <input type='radio' name='neighborhood' value='queenAnne'>Queen Anne<br>
+      <input type='radio' name='neighborhood' value='downtown'>Downtown<br>
+      <input type='radio' name='neighborhood' value='ballard'>Ballard<br>
+      <input type='radio' name='neighborhood' value='fremont'>Fremont<br>
     </div>
   </form>
+  <section id="bigTable">
   <div id="showResults"></div>
+  </section>
 
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js'></script>

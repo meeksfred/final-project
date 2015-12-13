@@ -13,20 +13,42 @@ and view attractions.
   align-items: center;
   height: 400px;
   width: 100%;
-  background-image: url('images/pioneersquare.jpg');
+  background-image: url('images/closeup2.jpg');
   background-repeat: no-repeat;
   background-position: center;
 
 }
 #words {
 
-  font: 24px Helvetica;
+  font: 38px Helvetica;
   color: black;
   height: 50%;
-  width: 50%;
+  width: 70%;
 }
+
+/*#frame {
+
+  height: 300px;
+  width: 100%;
+
+}*/
 
 img {
   height: 50px;
   width: 50px;
 }
+
+#bigTable {
+  height: 800px;
+}
+
+#showResults {
+
+  height: 600px;
+  overflow: scroll;
+
+
+}
+
+
+
