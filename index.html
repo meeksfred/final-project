@@ -10,6 +10,7 @@
     <div id="words">
       <p>Hello and welcome to UPIK! We love Seattle and want to share some of our city's best attractions with you. Whether you're new to town, entertaining visitors, or just want to do something spontaneous, UPIK ensures you don't get stuck with 'I don't know, you pick!' syndrome.</p>
     </div>
+
   </section>
   <img id="lilarrow" src="images/arrowdown.jpg">
   <h3>Choose a Neighborhood(s)</h3>
@@ -17,11 +18,23 @@
   <p id="announce"></p>
   <form>
     <div class='hood'><!-- //add fieldset -->
-      <input type='radio' name='neighborhood' value='capitolHill'>Capitol Hill<br>
-      <input type='radio' name='neighborhood' value='queenAnne'>Queen Anne<br>
-      <input type='radio' name='neighborhood' value='downtown'>Downtown<br>
-      <input type='radio' name='neighborhood' value='ballard'>Ballard<br>
-      <input type='radio' name='neighborhood' value='fremont'>Fremont<br>
+      <ul class='locations'>
+        <li>
+          <input type='radio' name='neighborhood' value='capitolHill'><img class='imagesHoods' src='images_hoods/capitolHill.jpg' /><br>
+        </li>
+       <li>
+         <input type='radio' name='neighborhood' value='queenAnne'><img class='imagesHoods' src='images_hoods/queenAnne.jpg' /><br>
+       </li>
+       <li>
+         <input type='radio' name='neighborhood' value='downtown'><img class='imagesHoods' src='images_hoods/downtown.jpg' /><br>
+       </li>
+       <li>
+         <input type='radio' name='neighborhood' value='ballard'><img class='imagesHoods' src='images_hoods/ballard.jpg' /><br>
+        </li>
+        <li>
+         <input type='radio' name='neighborhood' value='fremont'><img class='imagesHoods' src='images_hoods/fremont.jpg' /><br>
+       </li>
+      </ul>
     </div>
   </form>
   <div class='cost'></div>
