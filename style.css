@@ -7,7 +7,7 @@ Below the main section is the actual program to let a user select a neighborhood
 and view attractions.
 */
 
-#landing {
+/*#landing {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +33,7 @@ and view attractions.
 
 }*/
 
-img {
+/*img {
   height: 50px;
   width: 50px;
 }
@@ -48,6 +48,59 @@ img {
   overflow: scroll;
 
 
+}*/
+
+body{
+  background-image: url('backgroundImages/seattleAir.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+}
+header {
+  border: black solid 1px;
+  font-size: 25px;
+  font-style: bold;
+
+}
+
+nav{
+  float: right;
+}
+
+.nav a{
+  color: #EDF7FA;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.locations li{
+  display: inline-block;
+  float: left;
+  width: 20%;
+}
+
+/*.formWrapper{
+  display: inline-block;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+}*/
+
+.imagesHoods{
+  display:block;
+  float: left;
+  height:150px;
+  width:150px;
+}
+
+.button{
+  border: solid black 1px;
+  margin-left: 40px;
+  margin-top: 20px;
+  opacity: 0.75;
 }
 
 
