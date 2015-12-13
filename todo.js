@@ -222,7 +222,7 @@ var db = {
     },
     {
       id: 'lostLakeCafeAndLounge',
-      name: 'lost lake cafe and lounge',
+      name: 'Lost Lake Cafe and Lounge',
       cost: 2,
       type: 'restaurant',
       outdoor: false,
@@ -710,7 +710,7 @@ var db = {
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://populuxebrewing.com/'
+      url: 'http://populuxebrewing.com'
     },
     {
       id: 'reubens',
@@ -728,7 +728,7 @@ var db = {
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.peddlerbrewing.com/'
+      url: 'http://www.peddlerbrewing.com'
     },
     {
       id: 'locks',
@@ -755,7 +755,7 @@ var db = {
       type: 'entertainment',
       outdoor: false,
       kidfriendly: false,
-      url: 'http://www.tractortavern.com/'
+      url: 'http://www.tractortavern.com'
     },
       {
       id: 'nordicmuseum',
@@ -764,16 +764,16 @@ var db = {
       type: 'museum',
       outdoor: true,
       kidfriendly: true,
-      url: 'https://www.nordicmuseum.org/'
+      url: 'https://www.nordicmuseum.org'
     },
       {
       id: 'bourbonandbones',
-      name: 'BourbonandBones',
+      name: 'Bourbon And Bones',
       cost: 1,
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://bourbonandbones.com/'
+      url: 'http://bourbonandbones.com'
     },
       {
       id: 'sonicBoom',
@@ -782,7 +782,7 @@ var db = {
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
-      url: 'https://www.sonicboomrecords.com/'
+      url: 'https://www.sonicboomrecords.com'
     },
       {
       id: 'consignmentStore',
@@ -791,7 +791,7 @@ var db = {
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.ballardconsignment.com/'
+      url: 'http://www.ballardconsignment.com'
     },
       {
       id: 'laIsla',
@@ -800,7 +800,7 @@ var db = {
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://laislacuisine.com/'
+      url: 'http://laislacuisine.com'
     },
       {
       id: 'walrusAndTheCarpenter',
@@ -809,7 +809,7 @@ var db = {
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.thewalrusbar.com/'
+      url: 'http://www.thewalrusbar.com'
     },
       {
       id: 'ballardMarket',
@@ -818,7 +818,7 @@ var db = {
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://townandcountrymarkets.com/ballard-market/'
+      url: 'http://townandcountrymarkets.com/ballard-market'
     },
       {
       id: 'ballardPizzaCompany',
@@ -827,7 +827,7 @@ var db = {
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.ballardpizzacompany.com/'
+      url: 'http://www.ballardpizzacompany.com'
     },
     {
       id: 'majesticBayTheatres',
@@ -836,7 +836,7 @@ var db = {
       type: 'entertainment',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.majesticbay.com/'
+      url: 'http://www.majesticbay.com'
     },
         {
       id: 'stoneGardens',
@@ -863,7 +863,7 @@ var db = {
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.sfmamarkets.com/visit-ballard-farmers-market/'
+      url: 'http://www.sfmamarkets.com/visit-ballard-farmers-market'
 
     },
         {
@@ -873,7 +873,7 @@ var db = {
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.getyourhotcakes.com/'
+      url: 'http://www.getyourhotcakes.com'
     },
         {
       id: 'ballardAvenueHistoricDistrict',
@@ -909,7 +909,7 @@ var db = {
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.stoupbrewing.com/'
+      url: 'http://www.stoupbrewing.com'
     },
          {
       id: 'unBien',
@@ -918,7 +918,7 @@ var db = {
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://unbienseattle.com/'
+      url: 'http://unbienseattle.com'
     },
          {
       id: 'ballardBeerCompany',
@@ -927,7 +927,7 @@ var db = {
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.ballardbeercompany.com/'
+      url: 'http://www.ballardbeercompany.com'
     },
     {
       id: 'mightyODonuts',
@@ -936,7 +936,7 @@ var db = {
       type: 'cafe',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.mightyo.com/'
+      url: 'http://www.mightyo.com'
     },
          {
       id: 'burkeGilmanTrail',
@@ -954,7 +954,7 @@ var db = {
       type: 'cafe',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.bauhaus.coffee/'
+      url: 'http://www.bauhaus.coffee'
     }
     ],
     fremont: [
@@ -965,7 +965,7 @@ var db = {
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.fremontbrewing.com/'
+      url: 'http://www.fremontbrewing.com'
     },
         {
       id: 'fremontVintageMall',
@@ -974,7 +974,7 @@ var db = {
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://fremontvintagemall.com/'
+      url: 'http://fremontvintagemall.com'
     },
         {
       id: 'cafeTurko',
