@@ -1,0 +1,32 @@
+/*
+this css will be for the top of the page. It will include very brief instructions
+(in large which Helvetica) for the user which are framed in front of a background
+photo of Seattle.
+Once the user starts scrolling down, an event listener is called and the navigation bar appears and lets a user return home, or go to another page of the site.
+Below the main section is the actual program to let a user select a neighborhood
+and view attractions.
+*/
+
+#landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  background-image: url('images/pioneersquare.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+#words {
+
+  font: 24px Helvetica;
+  color: black;
+  height: 50%;
+  width: 50%;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
