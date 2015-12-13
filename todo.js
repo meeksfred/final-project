@@ -1,19 +1,13 @@
 
-<<<<<<< HEAD
-//var express = require('express');
-//var app = express();
-
-
-=======
 // var express = require('express');
 // var app = express();
->>>>>>> 2b4a66e66f1dacffa5a13c7b24401ea07912d20a
+
 
 var db = {
   capitolHill: [
     {
       id: 'pinebox',
-      name: 'pinebox',
+      name: 'Pinebox',
       cost: 2,
       type: 'bar',
       outdoor: false,
@@ -22,7 +16,7 @@ var db = {
     },
     {
       id: 'lilWoodys',
-      name: 'lil woodys',
+      name: 'Lil Woodys',
       cost: 1,
       type: 'restaurant',
       outdoor: false,
@@ -31,7 +25,7 @@ var db = {
     },
     {
       id: 'lindas',
-      name: 'lindas',
+      name: 'Lindas',
       cost: 1,
       type: 'bar',
       outdoor: true,
@@ -40,7 +34,7 @@ var db = {
     },
     {
       id: 'montana',
-      name: 'montana',
+      name: 'Montana',
       cost: 1,
       type: 'bar',
       outdoor: true,
@@ -49,7 +43,7 @@ var db = {
     },
     {
       id: 'neumos',
-      name: 'neumos',
+      name: 'Neumos',
       cost: 1,
       type: 'entertainment',
       outdoor: false,
@@ -58,7 +52,7 @@ var db = {
     },
     {
       id: 'barboza',
-      name: 'barboza',
+      name: 'Barboza',
       cost: 1,
       type: 'entertainment',
       outdoor: false,
@@ -67,7 +61,7 @@ var db = {
     },
     {
       id: 'calAndersonPark',
-      name: 'cal anderson park',
+      name: 'Cal Anderson Park',
       cost: 1,
       type: 'park',
       outdoor: true,
@@ -76,7 +70,7 @@ var db = {
     },
     {
       id: 'garage',
-      name: 'garage',
+      name: 'Garage',
       cost: 2,
       type: 'bar',
       outdoor: true,
@@ -85,7 +79,7 @@ var db = {
     },
     {
       id: 'volunteerPark',
-      name: 'volunteer park',
+      name: 'Volunteer Park',
       cost: 1,
       type: 'park',
       outdoor: true,
@@ -94,7 +88,7 @@ var db = {
     },
     {
       id: 'fryeArtMuseum',
-      name: 'frye art museum',
+      name: 'Frye Art Museum',
       cost: 1,
       type: 'museum',
       outdoor: false,
@@ -103,7 +97,7 @@ var db = {
     },
     {
       id: 'tacosChukis',
-      name: 'tacos chukis',
+      name: 'Tacos Chukis',
       cost: 1,
       type: 'restaurant',
       outdoor: false,
@@ -112,7 +106,7 @@ var db = {
     },
     {
       id: 'dicks',
-      name: 'dicks drive-in',
+      name: 'Dicks Drive-In',
       cost: 1,
       type: 'restaurant',
       outdoor: true,
@@ -121,7 +115,7 @@ var db = {
     },
     {
       id: 'soi',
-      name: 'soi',
+      name: 'Soi',
       cost: 2,
       type: 'restaurant',
       outdoor: false,
@@ -130,7 +124,7 @@ var db = {
     },
     {
       id: 'victrola',
-      name: 'victrola coffee roasters',
+      name: 'Victrola Coffee Roasters',
       cost: 1,
       type: 'cafe',
       outdoor: true,
@@ -139,7 +133,7 @@ var db = {
     },
     {
       id: 'elliotBayBookStore',
-      name: 'elliot bay book company',
+      name: 'Elliot Bay Book Company',
       cost: 1,
       type: 'library',
       outdoor: false,
@@ -148,7 +142,7 @@ var db = {
     },
     {
       id: 'elysianBrewing',
-      name: 'elysian brewery',
+      name: 'Elysian Brewery',
       cost: 2,
       type: 'bar',
       outdoor: false,
@@ -157,7 +151,7 @@ var db = {
     },
     {
       id: 'momiji',
-      name: 'momiji',
+      name: 'Momiji',
       cost: 2,
       type: 'restaurant',
       outdoor: false,
@@ -166,7 +160,7 @@ var db = {
     },
     {
       id: 'stumptownCoffee',
-      name: 'stumptown coffee roasters',
+      name: 'Stumptown Coffee Roasters',
       cost: 1,
       type: 'cafe',
       outdoor: true,
@@ -175,7 +169,7 @@ var db = {
     },
     {
       id: 'rheinHaus',
-      name: 'rhein haus',
+      name: 'Rhein Haus',
       cost: 2,
       type: 'restaurant',
       outdoor: true,
@@ -184,7 +178,7 @@ var db = {
     },
     {
       id: 'mollyMoons',
-      name: 'molly moons',
+      name: 'Molly Moons',
       cost: 1,
       type: 'cafe',
       outdoor: false,
@@ -193,7 +187,7 @@ var db = {
     },
     {
       id: 'everydayMusic',
-      name: 'everyday music',
+      name: 'Everyday Music',
       cost: 1,
       type: 'shopping',
       outdoor: false,
@@ -202,7 +196,7 @@ var db = {
     },
     {
       id: 'adasTechnicalBooksCafe',
-      name: 'adas technical books and cafe',
+      name: 'Adas Technical Books and Cafe',
       cost: 1,
       type: 'cafe',
       outdoor: true,
@@ -211,7 +205,7 @@ var db = {
     },
     {
       id: 'oola',
-      name: 'oola distillery',
+      name: 'Oola Distillery',
       cost: 2,
       type: 'bar',
       outdoor: false,
@@ -220,7 +214,7 @@ var db = {
     },
     {
       id: 'sunDistillery',
-      name: 'sun liquor distillery',
+      name: 'Sun Liquor Distillery',
       cost: 2,
       type: 'bar',
       outdoor: true,
@@ -228,13 +222,8 @@ var db = {
       url: 'http://www.sunliquor.com/'
     },
     {
-<<<<<<< HEAD
       id: 'lostLake',
-      name: 'lost lake cafe and lounge',
-=======
-      id: 'lostLakeCafeAndLounge',
       name: 'Lost Lake Cafe and Lounge',
->>>>>>> 2b4a66e66f1dacffa5a13c7b24401ea07912d20a
       cost: 2,
       type: 'restaurant',
       outdoor: false,
@@ -243,7 +232,7 @@ var db = {
     },
     {
       id: 'bakeryNouveau',
-      name: 'bakery nouveau',
+      name: 'Bakery Nouveau',
       cost: 1,
       type: 'cafe',
       outdoor: false,
