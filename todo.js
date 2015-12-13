@@ -1001,7 +1001,7 @@ var db = {
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://jivetimerecords.com/'
+      url: 'http://jivetimerecords.com'
     },
          {
       id: 'dustyStrings',
@@ -1010,7 +1010,7 @@ var db = {
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.dustystrings.com/'
+      url: 'http://www.dustystrings.com'
     },
         {
       id: 'pcc',
@@ -1064,7 +1064,7 @@ var db = {
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
-      url: 'http://www.ballroomfremont.com/'
+      url: 'http://www.ballroomfremont.com'
     },
       {
       id: 'statueOfLenin',

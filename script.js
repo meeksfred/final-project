@@ -63,7 +63,7 @@ $(document).ready(function() {
           console.log(db.ballard[bb].name);
           $('#showResults').append('<tr>');
           //writing an anchor tag (activity name) then attaching link
-          $('#showResults').append('<td>' + '<a href=' + db.ballard[bb].url + '>' + db.ballard[bb].name + '</a>' + '</td>');
+          $('#showResults').append('<td>' + '<a href=' + db.ballard[bb].url + ' target="_blank">' + db.ballard[bb].name + '</a>' + '</td>');
           $('#showResults').append('<td>' + db.ballard[bb].cost + '</td>');
           $('#showResults').append('</tr>');
           }
