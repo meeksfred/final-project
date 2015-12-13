@@ -2,24 +2,34 @@
 <html>
 <head>
   <title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  <header></header>
+  <section id="landing">
+    <div id="words">
+      <p>Hello and welcome to UPIK! We love Seattle and want to share some of our city's best attractions with you. Whether you're new to town, entertaining visitors, or just want to do something spontaneous, UPIK ensures you don't get stuck with 'I don't know, you pick!' syndrome.</p>
+    </div>
+  </section>
   <h3>Choose a Neighborhood(s)</h3>
   <h3>Choose a Cost Range(s)</h3>
+  <p id="announce"></p>
   <form>
-    <div class='neighborhood'>
-      <input type='checkbox' name='neighborhood' value='Capitol Hill'>Capitol Hill<br>
-      <input type='checkbox' name='neighborhood' value='Queen Anne'>Queen Anne<br>
-      <input type='checkbox' name='neighborhood' value='Downtown'>Downtown<br>
-      <input type='checkbox' name='neighborhood' value='Ballard'>Ballard<br>
-      <input type='checkbox' name='neighborhood' value='Fremont'>Fremont<br>
-    </div>
-    <div class='cost'>
-      <input type='checkbox' name='cost' value='0-20'>$0-$20<br>
-      <input type='checkbox' name='cost' value='20-50'>$20-$50<br>
-      <input type='checkbox' name='cost' value='50+'>$50+<br>
-      <input type='submit' value='Submit'>
+    <div class='neighborhood'><!-- //add fieldset -->
+      <input type='checkbox' name='neighborhood' value='capitolHill'>Capitol Hill<br>
+      <input type='checkbox' name='neighborhood' value='queenAnne'>Queen Anne<br>
+      <input type='checkbox' name='neighborhood' value='downtown'>Downtown<br>
+      <input type='checkbox' name='neighborhood' value='ballard'>Ballard<br>
+      <input type='checkbox' name='neighborhood' value='fremont'>Fremont<br>
+      <input id="submitIt"   type='submit' value='Submit'>
     </div>
   </form>
+  <div id="showResults"></div>
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js'></script>
+  <script type="text/javascript" src="todo.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+
 </body>
 </html>
