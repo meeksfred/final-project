@@ -8,18 +8,21 @@
   <h3>Choose a Cost Range(s)</h3>
   <form>
     <div class='neighborhood'>
-      <input type='checkbox' name='neighborhood' value='Capitol Hill'>Capitol Hill<br>
-      <input type='checkbox' name='neighborhood' value='Queen Anne'>Queen Anne<br>
-      <input type='checkbox' name='neighborhood' value='Downtown'>Downtown<br>
-      <input type='checkbox' name='neighborhood' value='Ballard'>Ballard<br>
-      <input type='checkbox' name='neighborhood' value='Fremont'>Fremont<br>
-    </div>
-    <div class='cost'>
+      <input type='checkbox' name='neighborhood' value='capitol hill'>Capitol Hill<br>
+      <input type='checkbox' name='neighborhood' value='queen anne'>Queen Anne<br>
+      <input type='checkbox' name='neighborhood' value='downtown'>Downtown<br>
+      <input type='checkbox' name='neighborhood' value='ballard'>Ballard<br>
+      <input type='checkbox' name='neighborhood' value='fremont'>Fremont<br>
       <input type='checkbox' name='cost' value='0-20'>$0-$20<br>
       <input type='checkbox' name='cost' value='20-50'>$20-$50<br>
       <input type='checkbox' name='cost' value='50+'>$50+<br>
-      <input type='submit' value='Submit'>
+      <input id='submitIt' type='submit' value='Submit'>
     </div>
   </form>
+  <div id='showResults'>
+  </div>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src='todo.js'></script>
+  <script src='new.js'></script>
 </body>
 </html>

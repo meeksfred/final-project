@@ -1,6 +1,7 @@
 
-var express = require('express');
-var app = express();
+//var express = require('express');
+//var app = express();
+
 
 
 var db = {
@@ -105,7 +106,7 @@ var db = {
       url: 'https://www.facebook.com/TacosChukis/'
     },
     {
-      id: 'dicksDriveIn',
+      id: 'dicks',
       name: 'dicks drive-in',
       cost: 1,
       type: 'restaurant',
@@ -123,7 +124,7 @@ var db = {
       url: 'http://www.soicapitolhill.com/'
     },
     {
-      id: 'victrolaCoffeeRoasters',
+      id: 'victrola',
       name: 'victrola coffee roasters',
       cost: 1,
       type: 'cafe',
@@ -132,7 +133,7 @@ var db = {
       url: 'http://www.victrolacoffee.com/'
     },
     {
-      id: 'elliotBayBookCompany',
+      id: 'elliotBayBookStore',
       name: 'elliot bay book company',
       cost: 1,
       type: 'library',
@@ -141,7 +142,7 @@ var db = {
       url: 'http://www.elliottbaybook.com/'
     },
     {
-      id: 'elysianBrewery',
+      id: 'elysianBrewing',
       name: 'elysian brewery',
       cost: 2,
       type: 'bar',
@@ -159,7 +160,7 @@ var db = {
       url: 'http://www.momijiseattle.com/'
     },
     {
-      id: 'stumptownCoffeeRoasters',
+      id: 'stumptownCoffee',
       name: 'stumptown coffee roasters',
       cost: 1,
       type: 'cafe',
@@ -168,7 +169,7 @@ var db = {
       url: 'https://www.stumptowncoffee.com/'
     },
     {
-      id: 'rheinhaus',
+      id: 'rheinHaus',
       name: 'rhein haus',
       cost: 2,
       type: 'restaurant',
@@ -195,7 +196,7 @@ var db = {
       url: 'http://www.everydaymusic.com/'
     },
     {
-      id: 'adasTechnicalBooksAndCafe',
+      id: 'adasTechnicalBooksCafe',
       name: 'adas technical books and cafe',
       cost: 1,
       type: 'cafe',
@@ -204,7 +205,7 @@ var db = {
       url: 'http://www.seattletechnicalbooks.com/'
     },
     {
-      id: 'oolaDistillery',
+      id: 'oola',
       name: 'oola distillery',
       cost: 2,
       type: 'bar',
@@ -213,7 +214,7 @@ var db = {
       url: 'http://ooladistillery.com/'
     },
     {
-      id: 'sunLiquorDistillery',
+      id: 'sunDistillery',
       name: 'sun liquor distillery',
       cost: 2,
       type: 'bar',
@@ -222,7 +223,7 @@ var db = {
       url: 'http://www.sunliquor.com/'
     },
     {
-      id: 'lostLakeCafeAndLounge',
+      id: 'lostLake',
       name: 'lost lake cafe and lounge',
       cost: 2,
       type: 'restaurant',
@@ -1023,7 +1024,7 @@ var db = {
       url: 'http://www.pccnaturalmarkets.com/locations/fr.html'
     },
         {
-      id: 'fremont farmers market',
+      id: 'fremontFarmersMarket',
       name: 'fremont farmers market',
       cost: 1,
       type: 'shopping',
@@ -1149,7 +1150,7 @@ var db = {
       url: 'http://www.yelp.com/biz/hotel-hotel-seattle'
     },
       {
-      id: 'lucky\'sPho',
+      id: 'luckysPho',
       name: 'lucky\'s pho',
       cost: 1,
       type: 'restaurant',
@@ -1179,72 +1180,72 @@ var db = {
 };
 
 
-app.get('/capitolHill', function(req, res) {
-  res.json(db.capitolHill);
-});
+// app.get('/capitolHill', function(req, res) {
+//   res.json(db.capitolHill);
+// });
 
-app.get('/queenAnne', function(req, res) {
-  res.json(db.queenAnne);
-});
+// app.get('/queenAnne', function(req, res) {
+//   res.json(db.queenAnne);
+// });
 
-app.get('/downtown', function(req, res) {
-  res.json(db.downtown);
-});
+// app.get('/downtown', function(req, res) {
+//   res.json(db.downtown);
+// });
 
-app.get('/ballard', function(req, res) {
-  res.json(db.ballard);
-});
+// app.get('/ballard', function(req, res) {
+//   res.json(db.ballard);
+// });
 
-app.get('/fremont', function(req, res) {
-  res.json(db.fremont);
-});
+// app.get('/fremont', function(req, res) {
+//   res.json(db.fremont);
+// });
 
-app.get('/ballard/:id', function(req, res){
-  var id = req.params.id;
-  db.ballard.forEach(function(thing){
-    if(thing.id === id){
-      res.json(thing);
-    }
-  });
-});
+// app.get('/ballard/:id', function(req, res){
+//   var id = req.params.id;
+//   db.ballard.forEach(function(thing){
+//     if(thing.id === id){
+//       res.json(thing);
+//     }
+//   });
+// });
 
-app.get('/fremont/:id', function(req, res){
-  var id = req.params.id;
-  db.fremont.forEach(function(thing){
-    if(thing.id === id){
-      res.json(thing);
-    }
-  });
-});
+// app.get('/fremont/:id', function(req, res){
+//   var id = req.params.id;
+//   db.fremont.forEach(function(thing){
+//     if(thing.id === id){
+//       res.json(thing);
+//     }
+//   });
+// });
 
-app.get('/downtown/:id', function(req, res){
-  var id = req.params.id;
-  db.downtown.forEach(function(thing){
-    if(thing.id === id){
-      res.json(thing);
-    }
-  });
-});
+// app.get('/downtown/:id', function(req, res){
+//   var id = req.params.id;
+//   db.downtown.forEach(function(thing){
+//     if(thing.id === id){
+//       res.json(thing);
+//     }
+//   });
+// });
 
-app.get('/capitolHill/:id', function(req, res){
-  var id = req.params.id;
-  db.capitolHill.forEach(function(thing){
-    if(thing.id === id){
-      res.json(thing);
-    }
-  });
-});
+// app.get('/capitolHill/:id', function(req, res){
+//   var id = req.params.id;
+//   db.capitolHill.forEach(function(thing){
+//     if(thing.id === id){
+//       res.json(thing);
+//     }
+//   });
+// });
 
-app.get('/queenAnne/:id', function(req, res){
-  var id = req.params.id;
-  db.queenAnne.forEach(function(thing){
-    if(thing.id === id){
-      res.json(thing);
-    }
-  });
-});
+// app.get('/queenAnne/:id', function(req, res){
+//   var id = req.params.id;
+//   db.queenAnne.forEach(function(thing){
+//     if(thing.id === id){
+//       res.json(thing);
+//     }
+//   });
+// });
 
 
-app.listen(3000, function() {
-  console.log('server started');
-});
+// app.listen(3000, function() {
+//   console.log('server started');
+// });
