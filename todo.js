@@ -1079,7 +1079,7 @@ var db = {
       {
       id: 'theoChocolateCompany',
       name: 'Theo Chocolate Company',
-      cost: 1,
+      cost: 2,
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
@@ -1097,7 +1097,7 @@ var db = {
       {
       id: 'frelardPizzaCompany',
       name: 'Frelard Pizza Company',
-      cost: 1,
+      cost: 2,
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,

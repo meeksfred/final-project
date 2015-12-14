@@ -30,9 +30,8 @@
 //   }
 // }
 // }
-
+var array = [];
 $(document).ready(function() {
-
 
   $("input:radio[name=neighborhood]").click(function(){
 
@@ -41,16 +40,72 @@ $(document).ready(function() {
     $('#showResults').append('<thead><tr><th>' + 'Name/Website' + '</th><th>' + 'Cost' + '</th> </tr></thead>');
 
     var $selectedPlace = $(this).val();
+
       if($selectedPlace === 'fremont'){
+
+      $('.hood').remove();
+      $('<input type="radio" name="costCheckbox" value=1>$<br>').appendTo('.cost');
+      $('<input type="radio" name="costCheckbox" value=2>$$<br>').appendTo('.cost');
+      $('<input type="radio" name="costCheckbox" value=3>$$$<br>').appendTo('.cost');
+      $("input:radio[name=costCheckbox]").click(function(){
+          var $selectedCost = $(this).val();
+          $('#showResults').empty();
+          for( var gg = 0; gg < array.length; gg +=1 ) {
+            if($selectedCost === array[gg].cost){
+                $('#showResults').append('<tr>');
+                $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
+                $('#showResults').append('</tr>');
+            }
+                console.log(array[gg].cost);
+          }
+            // else if ($selectedCost === array[gg].cost) {
+            //   $('#showResults').append('<tr>');
+            //   $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
+            //   $('#showResults').append('</tr>');
+            // } else if (array[gg].cost === 3){
+            //   $('#showResults').append('<tr>');
+            //   $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
+            //   $('#showResults').append('</tr>');
+            // }
+
+        })
+
       for(var bb = 0; bb < db.fremont.length; bb+= 1){
+      array.push(db.fremont[bb]);
       console.log(db.fremont[bb].name);
       $('#showResults').append('<tr>');
       $('#showResults').append('<td>' + '<a href=' + db.fremont[bb].url + '>' + db.fremont[bb].name + '</a>' + '</td>');
       $('#showResults').append('<td>' + db.fremont[bb].cost + '</td>');
       $('#showResults').append('</tr>');
+
+
     }
     } else if ($selectedPlace === 'capitolHill'){
+
+      $('.hood').remove();
+      $('<input type="radio" name="costCheckbox" value="">$<br>').appendTo('.cost');
+      $('<input type="radio" name="costCheckbox" value="">$$<br>').appendTo('.cost');
+      $('<input type="radio" name="costCheckbox" value="">$$$<br>').appendTo('.cost');
+      $("input:radio[name=costCheckbox]").click(function(){
+          $('#showResults').empty();
+          for( var gg = 0; gg < array.length; gg +=1 ) {
+            if(array[gg].cost === 1){
+              $('#showResults').append('<tr>');
+              $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
+              $('#showResults').append('</tr>');
+            } else if (array[gg].cost === 2) {
+              $('#showResults').append('<tr>');
+              $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
+              $('#showResults').append('</tr>');
+            } else if (array[gg].cost === 3){
+              $('#showResults').append('<tr>');
+              $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
+              $('#showResults').append('</tr>');
+            }
+          }
+        })
       for(var bb = 0; bb < db.capitolHill.length; bb+= 1){
+        array.push(db.capitolHill[bb]);
         console.log(db.capitolHill[bb].name);
         $('#showResults').append('<tr>');
         $('#showResults').append('<td>' + '<a href=' + db.capitolHill[bb].url + '>' + db.capitolHill[bb].name + '</a>' + '</td>');
@@ -58,7 +113,31 @@ $(document).ready(function() {
         $('#showResults').append('</tr>');
       }
     } else if ($selectedPlace === 'ballard'){
+
+      $('.hood').remove();
+      $('<input type="radio" name="costCheckbox" value="">$<br>').appendTo('.cost');
+      $('<input type="radio" name="costCheckbox" value="">$$<br>').appendTo('.cost');
+      $('<input type="radio" name="costCheckbox" value="">$$$<br>').appendTo('.cost');
+      $("input:radio[name=costCheckbox]").click(function(){
+          $('#showResults').empty();
+          for( var gg = 0; gg < array.length; gg +=1 ) {
+            if(array[gg].cost === 1){
+              $('#showResults').append('<tr>');
+              $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
+              $('#showResults').append('</tr>');
+            } else if (array[gg].cost === 2) {
+              $('#showResults').append('<tr>');
+              $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
+              $('#showResults').append('</tr>');
+            } else if (array[gg].cost === 3){
+              $('#showResults').append('<tr>');
+              $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
+              $('#showResults').append('</tr>');
+            }
+          }
+        })
         for(var bb = 0; bb < db.ballard.length; bb+= 1){
+          array.push(db.ballard[bb]);
         console.log(db.ballard[bb].name);
         $('#showResults').append('<tr>');
         //writing an anchor tag (activity name) then attaching link
@@ -67,7 +146,34 @@ $(document).ready(function() {
         $('#showResults').append('</tr>');
         }
     } else if ($selectedPlace === 'downtown'){
+
+      $('.hood').remove();
+      $('<input type="radio" name="costCheckbox" value="">$<br>').appendTo('.cost');
+      $('<input type="radio" name="costCheckbox" value="">$$<br>').appendTo('.cost');
+      $('<input type="radio" name="costCheckbox" value="">$$$<br>').appendTo('.cost');
+      $("input:radio[name=costCheckbox]").click(function(){
+          $('#showResults').empty();
+          for( var gg = 0; gg < array.length; gg +=1 ) {
+            if(array[gg].cost === 1){
+              $('#showResults').append('<tr>');
+              $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
+              $('#showResults').append('</tr>');
+
+            } else if (array[gg].cost === 2) {
+              $('#showResults').append('<tr>');
+              $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
+              $('#showResults').append('</tr>');
+
+            } else if (array[gg].cost === 3){
+              $('#showResults').append('<tr>');
+              $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
+              $('#showResults').append('</tr>');
+
+            }
+          }
+        })
         for(var bb = 0; bb < db.downtown.length; bb+= 1){
+          array.push(db.downtown[bb]);
         console.log(db.downtown[bb].name);
         $('#showResults').append('<tr>');
         $('#showResults').append('<td>' + '<a href=' + db.downtown[bb].url + '>' + db.downtown[bb].name + '</a>' + '</td>');
@@ -75,7 +181,31 @@ $(document).ready(function() {
         $('#showResults').append('</tr>');
         }
     } else if ($selectedPlace === 'queenAnne'){
+
+      $('.hood').remove();
+      $('<input type="radio" name="costCheckbox" value="">$<br>').appendTo('.cost');
+      $('<input type="radio" name="costCheckbox" value="">$$<br>').appendTo('.cost');
+      $('<input type="radio" name="costCheckbox" value="">$$$<br>').appendTo('.cost');
+      $("input:radio[name=costCheckbox]").click(function(){
+          $('#showResults').empty();
+          for( var gg = 0; gg < array.length; gg +=1 ) {
+            if(array[gg].cost === 1){
+              $('#showResults').append('<tr>');
+              $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
+              $('#showResults').append('</tr>');
+            } else if (array[gg].cost === 2) {
+              $('#showResults').append('<tr>');
+              $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
+              $('#showResults').append('</tr>');
+            } else if (array[gg].cost === 3){
+              $('#showResults').append('<tr>');
+              $('#showResults').append('<td>' + '<a href=' + array[gg].url + '>' + array[gg].name + '</a>' + '</td>');
+              $('#showResults').append('</tr>');
+            }
+          }
+        })
         for(var bb = 0; bb < db.queenAnne.length; bb+= 1){
+          array.push(db.queenAnne[bb]);
         console.log(db.queenAnne[bb].name);
         $('#showResults').append('<tr>');
         $('#showResults').append('<td>' + '<a href=' + db.queenAnne[bb].url + '>' + db.queenAnne[bb].name + '</a>' + '</td>');
