@@ -8,7 +8,7 @@ var db = {
     {
       id: 'pinebox',
       name: 'Pinebox',
-      cost: 2,
+      cost: "$",
       type: 'bar',
       outdoor: false,
       kidfriendly: false,
@@ -17,7 +17,7 @@ var db = {
     {
       id: 'lilWoodys',
       name: 'Lil Woodys',
-      cost: 1,
+      cost: "$",
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
@@ -26,7 +26,7 @@ var db = {
     {
       id: 'lindas',
       name: 'Lindas',
-      cost: 1,
+      cost: "$",
       type: 'bar',
       outdoor: true,
       kidfriendly: false,
@@ -35,7 +35,7 @@ var db = {
     {
       id: 'montana',
       name: 'Montana',
-      cost: 1,
+      cost: "$",
       type: 'bar',
       outdoor: true,
       kidfriendly: false,
@@ -44,7 +44,7 @@ var db = {
     {
       id: 'neumos',
       name: 'Neumos',
-      cost: 1,
+      cost: "$$",
       type: 'entertainment',
       outdoor: false,
       kidfriendly: false,
@@ -53,7 +53,7 @@ var db = {
     {
       id: 'barboza',
       name: 'Barboza',
-      cost: 1,
+      cost: "$",
       type: 'entertainment',
       outdoor: false,
       kidfriendly: false,
@@ -62,7 +62,7 @@ var db = {
     {
       id: 'calAndersonPark',
       name: 'Cal Anderson Park',
-      cost: 1,
+      cost: "$",
       type: 'park',
       outdoor: true,
       kidfriendly: true,
@@ -71,7 +71,7 @@ var db = {
     {
       id: 'garage',
       name: 'Garage',
-      cost: 2,
+      cost: "$$",
       type: 'bar',
       outdoor: true,
       kidfriendly: false,
@@ -80,7 +80,7 @@ var db = {
     {
       id: 'volunteerPark',
       name: 'Volunteer Park',
-      cost: 1,
+      cost: "$",
       type: 'park',
       outdoor: true,
       kidfriendly: true,
@@ -89,7 +89,7 @@ var db = {
     {
       id: 'fryeArtMuseum',
       name: 'Frye Art Museum',
-      cost: 1,
+      cost: "$",
       type: 'museum',
       outdoor: false,
       kidfriendly: true,
@@ -98,7 +98,7 @@ var db = {
     {
       id: 'tacosChukis',
       name: 'Tacos Chukis',
-      cost: 1,
+      cost: "$",
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
@@ -107,7 +107,7 @@ var db = {
     {
       id: 'dicks',
       name: 'Dicks Drive-In',
-      cost: 1,
+      cost: "$",
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
@@ -116,7 +116,7 @@ var db = {
     {
       id: 'soi',
       name: 'Soi',
-      cost: 2,
+      cost: "$$",
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
@@ -125,7 +125,7 @@ var db = {
     {
       id: 'victrola',
       name: 'Victrola Coffee Roasters',
-      cost: 1,
+      cost: "$",
       type: 'cafe',
       outdoor: true,
       kidfriendly: true,
@@ -134,7 +134,7 @@ var db = {
     {
       id: 'elliotBayBookStore',
       name: 'Elliot Bay Book Company',
-      cost: 1,
+      cost: "$",
       type: 'library',
       outdoor: false,
       kidfriendly: true,
@@ -143,7 +143,7 @@ var db = {
     {
       id: 'elysianBrewing',
       name: 'Elysian Brewery',
-      cost: 2,
+      cost: "$$",
       type: 'bar',
       outdoor: false,
       kidfriendly: false,
@@ -152,7 +152,7 @@ var db = {
     {
       id: 'momiji',
       name: 'Momiji',
-      cost: 2,
+      cost: "$$",
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
@@ -161,7 +161,7 @@ var db = {
     {
       id: 'stumptownCoffee',
       name: 'Stumptown Coffee Roasters',
-      cost: 1,
+      cost: "$",
       type: 'cafe',
       outdoor: true,
       kidfriendly: true,
@@ -170,7 +170,7 @@ var db = {
     {
       id: 'rheinHaus',
       name: 'Rhein Haus',
-      cost: 2,
+      cost: "$$",
       type: 'restaurant',
       outdoor: true,
       kidfriendly: false,
@@ -179,7 +179,7 @@ var db = {
     {
       id: 'mollyMoons',
       name: 'Molly Moons',
-      cost: 1,
+      cost: "$",
       type: 'cafe',
       outdoor: false,
       kidfriendly: true,
@@ -188,7 +188,7 @@ var db = {
     {
       id: 'everydayMusic',
       name: 'Everyday Music',
-      cost: 1,
+      cost: "$$",
       type: 'shopping',
       outdoor: false,
       kidfriendly: true,
@@ -197,7 +197,7 @@ var db = {
     {
       id: 'adasTechnicalBooksCafe',
       name: 'Adas Technical Books and Cafe',
-      cost: 1,
+      cost: "$$",
       type: 'cafe',
       outdoor: true,
       kidfriendly: true,
@@ -206,7 +206,7 @@ var db = {
     {
       id: 'oola',
       name: 'Oola Distillery',
-      cost: 2,
+      cost: "$$$",
       type: 'bar',
       outdoor: false,
       kidfriendly: false,
@@ -215,7 +215,7 @@ var db = {
     {
       id: 'sunDistillery',
       name: 'Sun Liquor Distillery',
-      cost: 2,
+      cost: "$$",
       type: 'bar',
       outdoor: true,
       kidfriendly: false,
@@ -224,7 +224,7 @@ var db = {
     {
       id: 'lostLake',
       name: 'Lost Lake Cafe and Lounge',
-      cost: 2,
+      cost: "$$",
       type: 'restaurant',
       outdoor: false,
       kidfriendly: false,
@@ -233,7 +233,7 @@ var db = {
     {
       id: 'bakeryNouveau',
       name: 'Bakery Nouveau',
-      cost: 1,
+      cost: "$",
       type: 'cafe',
       outdoor: false,
       kidfriendly: true,
@@ -244,7 +244,7 @@ var db = {
     {
       id: 'seattleCenter',
       name: 'Seattle Center',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
@@ -253,7 +253,7 @@ var db = {
     {
       id: 'chihulyGlass',
       name: 'Chihuly Garden and Glass',
-      cost: 2,
+      cost: "$$",
       type: 'museum',
       outdoor: false,
       kidfriendly: true,
@@ -262,7 +262,7 @@ var db = {
     {
       id: 'keyArena',
       name: 'KeyArena',
-      cost: 3,
+      cost: "$$$",
       type: 'entertainment',
       outdoor: false,
       kidfriendly: true,
@@ -271,7 +271,7 @@ var db = {
     {
       id: 'hulaHula',
       name: 'Hula Hula',
-      cost: 2,
+      cost: "$$",
       type: 'bar',
       outdoor: false,
       kidfriendly: false,
@@ -280,7 +280,7 @@ var db = {
     {
       id: 'spaceNeedle',
       name: 'Space Needle',
-      cost: 2,
+      cost: "$$",
       type: 'attraction',
       outdoor: false,
       kidfriendly: true,
@@ -289,7 +289,7 @@ var db = {
     {
       id: 'emp',
       name: 'EMP',
-      cost: 2,
+      cost: "$$",
       type: 'museum',
       outdoor: false,
       kidfriendly: true,
@@ -298,7 +298,7 @@ var db = {
     {
       id: 'pacificScienceCenter',
       name: 'Pacific Science Center',
-      cost: 1,
+      cost: "$",
       type: 'museum',
       outdoor: false,
       kidfriendly: true,
@@ -307,7 +307,7 @@ var db = {
     {
       id: 'kerryPark',
       name: 'Kerry Park',
-      cost: 1,
+      cost: "$",
       type: 'park',
       outdoor: true,
       kidfriendly: true,
@@ -316,7 +316,7 @@ var db = {
     {
       id: 'queenAnneBeerhall',
       name: 'Queen Anne Beerhall',
-      cost: 1,
+      cost: "$",
       type: 'bar',
       outdoor: false,
       kidfriendly: false,
@@ -325,7 +325,7 @@ var db = {
     {
       id: 'uptownEspresso',
       name: 'Uptown Espresso',
-      cost: 1,
+      cost: "$",
       type: 'cafe',
       outdoor: false,
       kidfriendly: true,
@@ -334,7 +334,7 @@ var db = {
     {
       id: 'elDiablo',
       name:'El Diablo Coffee Co',
-      cost: 1,
+      cost: "$",
       type: 'cafe',
       outdoor: false,
       kidfriendly: true,
@@ -343,7 +343,7 @@ var db = {
     {
       id:'caffeLadro',
       name: 'Caffe Ladro',
-      cost: 1,
+      cost: "$",
       type: 'cafe',
       outdoor: false,
       kidfriendly: true,
@@ -352,7 +352,7 @@ var db = {
     {
       id:'toulousePetite',
       name: 'Toulouse Petite',
-      cost: 2,
+      cost: "$$",
       type: 'restaurant',
       outdoor: false,
       kidfriendly: false,
@@ -361,7 +361,7 @@ var db = {
     {
       id:'metMarket',
       name:'Metropolitan Market',
-      cost: 2,
+      cost: "$$",
       type: 'grocery',
       outdoor: false,
       kidfriendly: true,
@@ -370,7 +370,7 @@ var db = {
     {
       id: 'myrtleEdwardsPark',
       name: 'Myrtle Edwards Park',
-      cost: 1,
+      cost: "$",
       type: 'park',
       outdoor: true,
       kidfriendly: true,
@@ -379,7 +379,7 @@ var db = {
     {
       id: 'queenAnnePublicLibrary',
       name: 'Queen Anne Public Library',
-      cost: 1,
+      cost: "$",
       type: 'library',
       outdoor: false,
       kidfriendly: true,
@@ -388,7 +388,7 @@ var db = {
     {
       id: 'chocolopolis',
       name: 'Chocolopolis',
-      cost: 1,
+      cost: "$",
       type: 'shopping',
       outdoor: false,
       kidfriendly: true,
@@ -397,7 +397,7 @@ var db = {
     {
       id: 'macrinaBakery',
       name: 'Macrina Bakery',
-      cost: 1,
+      cost: "$",
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
@@ -406,7 +406,7 @@ var db = {
     {
       id: 'meccaCafe',
       name: 'The Mecca Cafe',
-      cost: 1,
+      cost: "$",
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
@@ -415,7 +415,7 @@ var db = {
     {
       id:'cederbergTeaHouse',
       name: 'Cederberg Tea House',
-      cost: 1,
+      cost: "$",
       type: 'cafe',
       outdoor: false,
       kidfriendly: true,
@@ -424,7 +424,7 @@ var db = {
     {
       id:'howToCookAWolf',
       name: 'How to Cook a Wolf',
-      cost: 2,
+      cost: "$$",
       type: 'restaurant',
       outdoor: false,
       kidfriendly: false,
@@ -433,7 +433,7 @@ var db = {
     {
       id: 'mezcaleriaOaxaca',
       name: 'Mezcaleria Oaxaca',
-      cost: 2,
+      cost: "$$",
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
@@ -442,7 +442,7 @@ var db = {
     {
       id:'canlis',
       name: 'Canlis',
-      cost: 3,
+      cost: "$$$",
       type: 'restaurant',
       outdoor: false,
       kidfriendly: false,
@@ -453,7 +453,7 @@ var db = {
     {
       id: 'cinerama',
       name: 'Cinerama',
-      cost: 1,
+      cost: "$",
       type: 'entertainment',
       outdoor: false,
       kidfriendly: true,
@@ -462,7 +462,7 @@ var db = {
     {
       id:'steinbrueckGallery',
       name: 'Steinbrueck Native Gallery',
-      cost: 3,
+      cost: "$$$",
       type: 'museum',
       outdoor: false,
       kidfriendly: false,
@@ -471,7 +471,7 @@ var db = {
     {
       id: 'westLakeShoppingCenter',
       name: 'Westlake Shopping Center',
-      cost: 2,
+      cost: "$$",
       type: 'shopping',
       outdoor: false,
       kidfriendly: true,
@@ -480,7 +480,7 @@ var db = {
     {
       id:'pikePlaceMarket',
       name:'Pike Place Market',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
@@ -489,7 +489,7 @@ var db = {
     {
       id: 'olympicSculpturePark',
       name: 'Olympic Sculpture Park',
-      cost: 1,
+      cost: "$",
       type: 'park',
       outdoor: true,
       kidfriendly: true,
@@ -498,7 +498,7 @@ var db = {
     {
       id: 'safeCoField',
       name: 'SafeCo Field',
-      cost: 3,
+      cost: "$$$",
       type: 'entertainment',
       outdoor: true,
       kidfriendly: true,
@@ -507,7 +507,7 @@ var db = {
     {
       id: 'centuryLinkField',
       name: 'CenturyLink Field',
-      cost: 3,
+      cost: "$$$",
       type: 'entertainment',
       outdoor: true,
       kidfriendly: true,
@@ -516,7 +516,7 @@ var db = {
     {
       id:'waterFront',
       name: 'The Seattle Waterfront',
-      cost: 1,
+      cost: "$",
       type: 'park',
       outdoor: true,
       kidfriendly: true,
@@ -525,7 +525,7 @@ var db = {
     {
       id: 'ferrisWheel',
       name: 'Seattle Great Wheel',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
@@ -534,7 +534,7 @@ var db = {
     {
       id: 'columbiaCenter',
       name: 'Columbia Center',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: false,
       kidfriendly: true,
@@ -543,7 +543,7 @@ var db = {
     {
       id: 'ferryTerminal',
       name: 'Seattle Ferry Terminal',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: false,
       kidfriendly: true,
@@ -552,7 +552,7 @@ var db = {
     {
       id: 'benaroyaHall',
       name: 'Benaroya Hall',
-      cost: 3,
+      cost: "$$$",
       type: 'entertainment',
       outdoor: false,
       kidfriendly: true,
@@ -561,7 +561,7 @@ var db = {
     {
       id: 'umiSakeHouse',
       name: 'Umi Sake House',
-      cost: 2,
+      cost: "$$",
       type: 'restaurant',
       outdoor: false,
       kidfriendly: false,
@@ -570,7 +570,7 @@ var db = {
     {
       id: 'sam',
       name: 'Seattle Art Museum',
-      cost: 1,
+      cost: "$$",
       type: 'museum',
       outdoor: false,
       kidfriendly: true,
@@ -579,7 +579,7 @@ var db = {
     {
       id: 'seattleAquarium',
       name: 'Seattle Aquarium',
-      cost: 2,
+      cost: "$$$",
       type: 'attraction',
       outdoor: false,
       kidfriendly: true,
@@ -588,7 +588,7 @@ var db = {
     {
       id: 'pikeBrewingCo',
       name: 'The Pike Brewing Company',
-      cost: 1,
+      cost: "$$",
       type: 'bar',
       outdoor: false,
       kidfriendly: false,
@@ -597,7 +597,7 @@ var db = {
     {
       id: 'steelheadDiner',
       name: 'Steelhead Diner',
-      cost: 2,
+      cost: "$$",
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
@@ -606,7 +606,7 @@ var db = {
     {
       id: 'piroshkyPiroshky',
       name: 'Piroshky Piroshky',
-      cost: 1,
+      cost: "$",
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
@@ -615,7 +615,7 @@ var db = {
     {
       id: 'showbox',
       name: 'The Showbox',
-      cost: 2,
+      cost: "$$",
       type: 'entertainment',
       outdoor: false,
       kidfriendly: false,
@@ -624,7 +624,7 @@ var db = {
     {
       id: 'paramount',
       name: 'The Paramount Theatre',
-      cost: 3,
+      cost: "$$$",
       type: 'entertainment',
       outdoor: false,
       kidfriendly: true,
@@ -633,7 +633,7 @@ var db = {
     {
       id: 'crocodile',
       name: 'The Crocodile',
-      cost: 2,
+      cost: "$$",
       type: 'entertainment',
       outdoor: false,
       kidfriendly: false,
@@ -642,7 +642,7 @@ var db = {
     {
       id: 'moore',
       name: 'The Moore Theatre',
-      cost: 3,
+      cost: "$$$",
       type: 'entertainment',
       outdoor: false,
       kidfriendly: false,
@@ -651,7 +651,7 @@ var db = {
     {
       id: 'seattlePublicLibrary',
       name: 'Seattle Public Library',
-      cost: 1,
+      cost: "$",
       type: 'library',
       outdoor: false,
       kidfriendly: false,
@@ -660,7 +660,7 @@ var db = {
     {
       id: 'undergroundTour',
       name: 'Underground Tour',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: false,
       kidfriendly: true,
@@ -669,7 +669,7 @@ var db = {
     {
       id: 'pioneerSquare',
       name: 'Pioneer Square',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
@@ -678,7 +678,7 @@ var db = {
     {
       id: 'seattleCoffeeWorks',
       name: 'Seattle Coffee Works',
-      cost: 1,
+      cost: "$",
       type: 'cafe',
       outdoor: false,
       kidfriendly: true,
@@ -687,7 +687,7 @@ var db = {
     {
       id: 'biscuitBitch',
       name: 'Biscuit Bitch',
-      cost: 1,
+      cost: "$",
       type: 'restaurant',
       outdoor: false,
       kidfriendly: true,
@@ -698,7 +698,7 @@ var db = {
     {
       id: 'goldenGardens',
       name: 'Golden Gardens',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
@@ -707,7 +707,7 @@ var db = {
     {
       id: 'populuxe',
       name: 'Populuxe Brewing',
-      cost: 1,
+      cost: "$",
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
@@ -716,7 +716,7 @@ var db = {
     {
       id: 'reubens',
       name: 'Reubens Brewing',
-      cost: 1,
+      cost: "$",
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
@@ -725,7 +725,7 @@ var db = {
     {
       id: 'peddler',
       name: 'Peddler Brewing',
-      cost: 1,
+      cost: "$",
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
@@ -734,7 +734,7 @@ var db = {
     {
       id: 'locks',
       name: 'Ballard Locks',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
@@ -743,7 +743,7 @@ var db = {
     {
       id: 'shilsholeBay',
       name: 'Shilshole Bay',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
@@ -752,7 +752,7 @@ var db = {
       {
       id: 'tractorTavern',
       name: 'Tractor Tavern',
-      cost: 2,
+      cost: "$$",
       type: 'entertainment',
       outdoor: false,
       kidfriendly: false,
@@ -761,7 +761,7 @@ var db = {
       {
       id: 'nordicmuseum',
       name: 'Nordic Heritage Museum',
-      cost: 1,
+      cost: "$",
       type: 'museum',
       outdoor: true,
       kidfriendly: true,
@@ -770,7 +770,7 @@ var db = {
       {
       id: 'bourbonandbones',
       name: 'Bourbon And Bones',
-      cost: 1,
+      cost: "$$$",
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
@@ -779,7 +779,7 @@ var db = {
       {
       id: 'sonicBoom',
       name: 'Sonic Boom',
-      cost: 1,
+      cost: "$",
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
@@ -788,7 +788,7 @@ var db = {
       {
       id: 'consignmentStore',
       name: 'Ballard Consignment Store',
-      cost: 1,
+      cost: "$",
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
@@ -797,7 +797,7 @@ var db = {
       {
       id: 'laIsla',
       name: 'La Isla',
-      cost: 1,
+      cost: "$",
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
@@ -806,7 +806,7 @@ var db = {
       {
       id: 'walrusAndTheCarpenter',
       name: 'Walrus and the Carpenter',
-      cost: 1,
+      cost: "$",
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
@@ -815,7 +815,7 @@ var db = {
       {
       id: 'ballardMarket',
       name: 'Ballard Market',
-      cost: 1,
+      cost: "$",
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
@@ -824,7 +824,7 @@ var db = {
       {
       id: 'ballardPizzaCompany',
       name: 'Ballard Pizza Company',
-      cost: 1,
+      cost: "$",
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
@@ -833,7 +833,7 @@ var db = {
     {
       id: 'majesticBayTheatres',
       name: 'Majestic Bay Theatres',
-      cost: 1,
+      cost: "$",
       type: 'entertainment',
       outdoor: true,
       kidfriendly: true,
@@ -842,7 +842,7 @@ var db = {
         {
       id: 'stoneGardens',
       name: 'Stone Gardens',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
@@ -851,7 +851,7 @@ var db = {
         {
       id: 'corePowerYoga',
       name: 'Core Power Yoga',
-      cost: 1,
+      cost: "$",
       type: 'entertainment',
       outdoor: true,
       kidfriendly: true,
@@ -860,7 +860,7 @@ var db = {
         {
       id: 'ballardFarmersMarket',
       name: 'Ballard Farmers Market',
-      cost: 1,
+      cost: "$",
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
@@ -870,7 +870,7 @@ var db = {
         {
       id: 'hotCakes',
       name: 'Hot Cakes',
-      cost: 1,
+      cost: "$",
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
@@ -879,7 +879,7 @@ var db = {
         {
       id: 'ballardAvenueHistoricDistrict',
       name: 'Ballard Avenue Historic District',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
@@ -888,7 +888,7 @@ var db = {
         {
       id: 'ballardCoffeeWorks',
       name: 'Ballard Coffee Works',
-      cost: 1,
+      cost: "$",
       type: 'cafe',
       outdoor: true,
       kidfriendly: true,
@@ -897,7 +897,7 @@ var db = {
         {
       id: 'fishermansTerminal',
       name: 'Fishermans Terminal',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
@@ -906,7 +906,7 @@ var db = {
         {
       id: 'stoupBrewing',
       name: 'Stoup Brewing',
-      cost: 1,
+      cost: "$",
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
@@ -915,7 +915,7 @@ var db = {
          {
       id: 'unBien',
       name: 'Un Bien',
-      cost: 1,
+      cost: "$",
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
@@ -924,7 +924,7 @@ var db = {
          {
       id: 'ballardBeerCompany',
       name: 'Ballard Beer Company',
-      cost: 1,
+      cost: "$$",
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
@@ -933,7 +933,7 @@ var db = {
     {
       id: 'mightyODonuts',
       name: 'Mighty O Donuts',
-      cost: 1,
+      cost: "$",
       type: 'cafe',
       outdoor: true,
       kidfriendly: true,
@@ -942,7 +942,7 @@ var db = {
          {
       id: 'burkeGilmanTrail',
       name: 'Burke Gilman Trail',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
@@ -951,7 +951,7 @@ var db = {
          {
       id: 'bauhaus',
       name: 'Bauhaus',
-      cost: 1,
+      cost: "$",
       type: 'cafe',
       outdoor: true,
       kidfriendly: true,
@@ -962,7 +962,7 @@ var db = {
         {
       id: 'fremontBrewingCompany',
       name: 'Fremont Brewing Company',
-      cost: 1,
+      cost: "$",
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
@@ -971,7 +971,7 @@ var db = {
         {
       id: 'fremontVintageMall',
       name: 'Fremont Vintage Mall',
-      cost: 1,
+      cost: "$",
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
@@ -980,7 +980,7 @@ var db = {
         {
       id: 'cafeTurko',
       name: 'Cafe Turko',
-      cost: 1,
+      cost: "$",
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
@@ -989,7 +989,7 @@ var db = {
         {
       id: 'milsteadCoffeeCompany',
       name: 'Milstead Coffee Company',
-      cost: 1,
+      cost: "$",
       type: 'cafe',
       outdoor: true,
       kidfriendly: true,
@@ -998,7 +998,7 @@ var db = {
     {
       id: 'jiveTimeRecords',
       name: 'Jive Time Records',
-      cost: 1,
+      cost: "$$",
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
@@ -1007,7 +1007,7 @@ var db = {
          {
       id: 'dustyStrings',
       name: 'Dusty Strings',
-      cost: 1,
+      cost: "$$",
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
@@ -1016,7 +1016,7 @@ var db = {
         {
       id: 'pcc',
       name: 'PCC',
-      cost: 1,
+      cost: "$$",
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
@@ -1025,7 +1025,7 @@ var db = {
         {
       id: 'fremontFarmersMarket',
       name: 'Fremont Farmers Market',
-      cost: 1,
+      cost: "$",
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
@@ -1034,7 +1034,7 @@ var db = {
         {
       id: 'norms',
       name: 'Norms Eatery and Alehouse',
-      cost: 1,
+      cost: "$",
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
@@ -1043,7 +1043,7 @@ var db = {
       {
       id: 'outlanderBrewing',
       name: 'Outlander Brewing',
-      cost: 1,
+      cost: "$",
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
@@ -1052,7 +1052,7 @@ var db = {
     {
       id: 'nectarLounge',
       name: 'Nectar Lounge',
-      cost: 1,
+      cost: "$$",
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
@@ -1061,7 +1061,7 @@ var db = {
       {
       id: 'theBallroom',
       name: 'The Ballroom',
-      cost: 1,
+      cost: "$$",
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
@@ -1070,7 +1070,7 @@ var db = {
       {
       id: 'statueOfLenin',
       name: 'Statue of Lenin',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
@@ -1079,7 +1079,7 @@ var db = {
       {
       id: 'theoChocolateCompany',
       name: 'Theo Chocolate Company',
-      cost: 2,
+      cost: "$",
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
@@ -1088,7 +1088,7 @@ var db = {
       {
       id: 'essentialBakingCompany',
       name: 'Essential Baking Company',
-      cost: 1,
+      cost: "$$",
       type: 'cafe',
       outdoor: true,
       kidfriendly: true,
@@ -1097,7 +1097,7 @@ var db = {
       {
       id: 'frelardPizzaCompany',
       name: 'Frelard Pizza Company',
-      cost: 2,
+      cost: "$$",
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
@@ -1106,7 +1106,7 @@ var db = {
       {
       id: 'gasworks',
       name: 'Gasworks Park',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
@@ -1115,7 +1115,7 @@ var db = {
       {
       id: 'recycledCycles',
       name: 'Recycled Cycles',
-      cost: 1,
+      cost: "$$$",
       type: 'shopping',
       outdoor: true,
       kidfriendly: true,
@@ -1124,16 +1124,16 @@ var db = {
       {
       id: 'burkeGilmanTrail',
       name: 'Burke Gilman Trail',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
       url: 'https://en.wikipedia.org/wiki/Burke-Gilman_Trail'
     },
-         {
+      {
       id: 'fremontTroll',
       name: 'Fremont Troll',
-      cost: 1,
+      cost: "$",
       type: 'attraction',
       outdoor: true,
       kidfriendly: true,
@@ -1142,7 +1142,7 @@ var db = {
     {
       id: 'hotelHotel',
       name: 'Hotel Hotel',
-      cost: 1,
+      cost: "$",
       type: 'bar',
       outdoor: true,
       kidfriendly: true,
@@ -1151,7 +1151,7 @@ var db = {
       {
       id: 'luckysPho',
       name: 'Luckys Pho',
-      cost: 1,
+      cost: "$",
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
@@ -1160,7 +1160,7 @@ var db = {
       {
       id: 'revel',
       name: 'Revel',
-      cost: 1,
+      cost: "$$$",
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,
@@ -1169,7 +1169,7 @@ var db = {
       {
       id: 'chisoSushi',
       name: 'Chiso Sushi',
-      cost: 1,
+      cost: "$$",
       type: 'restaurant',
       outdoor: true,
       kidfriendly: true,

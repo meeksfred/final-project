@@ -32,8 +32,8 @@ and view attractions.
   width: 100%;
 
 }*/
-
-/*img {
+/*
+img {
   height: 50px;
   width: 50px;
 }
@@ -48,7 +48,7 @@ and view attractions.
   overflow: scroll;
 
 
-}*/
+}
 
 body{
   background-image: url('backgroundImages/seattleAir.jpg');
@@ -102,6 +102,3 @@ nav{
   margin-top: 20px;
   opacity: 0.75;
 }
-
-
-
