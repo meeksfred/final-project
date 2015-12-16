@@ -5,7 +5,16 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <header></header>
+  <header>
+    <h3 class='logo'>UPIK</h3>
+    <nav>
+      <ul>
+        <li class='nav'>Home</li>
+        <li class='nav'>Destination</li>
+        <li class='nav'>Mystery</li>
+      </ul>
+    </nav>
+  </header>
   <section id="landing">
     <div id="words">
       <p>Hello and welcome to UPIK! We love Seattle and want to share some of our city's best attractions with you. Whether you're new to town, entertaining visitors, or just want to do something spontaneous, UPIK ensures you don't get stuck with 'I don't know, you pick!' syndrome.</p>
@@ -13,8 +22,8 @@
 
   </section>
 <!--   <img id="lilarrow" src="images/arrowdown.jpg">
- -->  <h3>Choose a Neighborhood(s)</h3>
-  <h3>Choose a Cost Range(s)</h3>
+ -->  <h1 class='hoodTitle'>Choose a Neighborhood(s)</h1>
+
   <p id="announce"></p>
   <form>
     <div class='hood'><!-- //add fieldset -->
@@ -37,11 +46,11 @@
       </ul>
     </div>
   </form>
-  <div class='cost'></div>
-  <section id="bigTable">
-  <div id="showResults"></div>
-  <div id="whoaResults"></div>
-  </section>
+    <div class='cost'></div>
+    <section class='results' id="bigTable">
+    <div id="showResults"></div>
+    <div id="whoaResults"></div>
+    </section>
 
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js'></script>

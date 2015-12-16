@@ -32,24 +32,6 @@ and view attractions.
   width: 100%;
 
 }*/
-/*
-img {
-  height: 50px;
-  width: 50px;
-}
-
-#bigTable {
-  height: 800px;
-}
-
-#showResults {
-
-  height: 600px;
-  overflow: scroll;
-
-
-}
-
 body{
   background-image: url('backgroundImages/seattleAir.jpg');
   background-repeat: no-repeat;
@@ -57,22 +39,98 @@ body{
   background-size: cover;
 
 }
+
+img {
+  height: 50px;
+  width: 50px;
+}
+/*nav{
+  display: flex;
+}*/
 header {
-  border: black solid 1px;
+  /*border: black solid 1px;*/
   font-size: 25px;
   font-style: bold;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(196, 195, 175, 0.3);
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
-nav{
-  float: right;
+.logo{
+  margin: 10px;
+  margin-top: 20px;
 }
 
-.nav a{
-  color: #EDF7FA;
+.nav{
+  display: inline;
+  margin: 10px;
+}
+
+.hoodTitle{
+  margin-top: 50px;
+}
+.results{
+  opacity: 0.50;
+}
+
+#bigTable {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  background-color:rgba(0, 0, 0, .50);
+}
+
+#showResults {
+
+  max-height: 600px;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: scroll;
+  justify-content: center;
+}
+
+#showResults img{
+  height: 150px;
+  width: 150px;
+}
+
+#showResults p{
+  margin: 10px;
+}
+
+#showResults p a{
   text-decoration: none;
-  opacity: 0.85;
+  color: #26FF20;
 }
+
+#whoaResults {
+  max-height: 600px;
+  max-width: 1100px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#whoaResults img{
+  height: 150px;
+  width: 150px;
+}
+
+#whoaResults p{
+  margin: 10px;
+  text-decoration: none;
+}
+
 
 .locations li{
   display: inline-block;
