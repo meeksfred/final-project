@@ -31,7 +31,7 @@ $(document).ready(function() {
       for(var bb = 0; bb < db.fremont.length; bb+= 1){
       array.push(db.fremont[bb]);
       console.log(db.fremont[bb].name);
-      $('#showResults').append('<p>' + '<img src=images/images-fremont/' + db.fremont[bb].id + '.jpg height=200 width=200>' + '<a href=' + db.fremont[bb].url + '>' + db.fremont[bb].name + '</a>' + '</p>');
+      $('#showResults').append('<p>' + '<img src=images/images-fremont/' + db.fremont[bb].id + '.jpg height=200 width=200>' + '<a href=' + db.fremont[bb].url + ' target="_blank">' + db.fremont[bb].name + '</a>' + '</p>');
       }
   } else if ($selectedPlace === 'capitolHill'){
       $('.hood').remove();
@@ -55,7 +55,7 @@ $(document).ready(function() {
       for(var bb = 0; bb < db.capitolHill.length; bb+= 1){
         array.push(db.capitolHill[bb]);
         console.log(db.capitolHill[bb].name);
-         $('#showResults').append('<p>' + '<img src=images/images-capitolHill/' + db.capitolHill[bb].id + '.jpg height=200 width=200>' + '<a href=' + db.capitolHill[bb].url + '>' + db.capitolHill[bb].name + '</a>' + '</p>');
+         $('#showResults').append('<p>' + '<img src=images/images-capitolHill/' + db.capitolHill[bb].id + '.jpg height=200 width=200>' + '<a href=' + db.capitolHill[bb].url + ' target="_blank">' + db.capitolHill[bb].name + '</a>' + '</p>');
       }
     } else if ($selectedPlace === 'ballard'){
 
@@ -105,7 +105,7 @@ $(document).ready(function() {
         for(var bb = 0; bb < db.downtown.length; bb+= 1){
           array.push(db.downtown[bb]);
         console.log(db.downtown[bb].name);
-        $('#showResults').append('<p>' + '<img src=images/images-downtown/' + db.downtown[bb].id + '.jpg height=200 width=200>' + '<a href=' + db.downtown[bb].url + '>' + db.downtown[bb].name + '</a>' + '</p>');
+        $('#showResults').append('<p>' + '<img src=images/images-downtown/' + db.downtown[bb].id + '.jpg height=200 width=200>' + '<a href=' + db.downtown[bb].url + ' target="_blank">' + db.downtown[bb].name + '</a>' + '</p>');
         }
     } else if ($selectedPlace === 'queenAnne'){
 
@@ -130,7 +130,7 @@ $(document).ready(function() {
         for(var bb = 0; bb < db.queenAnne.length; bb+= 1){
           array.push(db.queenAnne[bb]);
         console.log(db.queenAnne[bb].name);
-        $('#showResults').append('<p>' + '<img src=images/images-queenAnne/' + db.queenAnne[bb].id + '.jpg height=200 width=200>' + '<a href=' + db.queenAnne[bb].url + '>' + db.queenAnne[bb].name + '</a>' + '</p>');
+        $('#showResults').append('<p>' + '<img src=images/images-queenAnne/' + db.queenAnne[bb].id + '.jpg height=200 width=200>' + '<a href=' + db.queenAnne[bb].url + ' target="_blank">' + db.queenAnne[bb].name + '</a>' + '</p>');
         }
     };
    });
