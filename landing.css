@@ -1,0 +1,41 @@
+body{
+  background-image: url('images/lakeunion.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+
+#landing {
+/*  display: flex;
+  justify-content: center;
+  align-items: center;*/
+  display: flex;
+  flex-direction: column;
+/*  justify-content: center;
+*/  height: 600px;
+  width: 100%;
+  /*background-size: 1200px 1000px;*/
+}
+
+#words{
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: auto;
+  font: 30px Helvetica;
+  color: white;
+  height: 60%;
+  width: 60%;
+  /*border: red 2px solid;*/
+}
+
+#arrow{
+  display: flex;
+   height: 50px;
+  width: 120px;
+  margin: auto;
+  color: white;
+  /*border: red 2px dotted;*/
+}
