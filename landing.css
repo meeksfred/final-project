@@ -1,7 +1,3 @@
-* {
-  font-family: 'Dancing Script', cursive;
-}
-
 body{
   background-image: url('images/lakeunion.jpg');
   background-size: cover;
@@ -11,6 +7,7 @@ body{
 }
 
 header {
+  font-family: 'Dancing Script', cursive;
   font-size: 25px;
   font-style: bold;
   display: flex;
@@ -25,6 +22,10 @@ header {
   max-height: 85px;
 }
 
+p {
+  font-style: Helvetica;
+  font-size: 30px;
+}
 
 
 #landing {
@@ -43,7 +44,6 @@ header {
   display: inline-flex;
   flex-wrap: wrap;
   margin: auto;
-  font: 30px Helvetica;
   color: white;
   height: 60%;
   width: 60%;
