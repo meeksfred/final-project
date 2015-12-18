@@ -1,37 +1,7 @@
-/*
-this css will be for the top of the page. It will include very brief instructions
-(in large which Helvetica) for the user which are framed in front of a background
-photo of Seattle.
-Once the user starts scrolling down, an event listener is called and the navigation bar appears and lets a user return home, or go to another page of the site.
-Below the main section is the actual program to let a user select a neighborhood
-and view attractions.
-*/
-
-/*#landing {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
-  width: 100%;
-  background-image: url('images/closeup2.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-#words {
-
-  font: 38px Helvetica;
-  color: black;
-  height: 50%;
-  width: 70%;
+* {
+  font-family: 'Dancing Script', cursive;
 }
 
-/*#frame {
-
-  height: 300px;
-  width: 100%;
-
-}*/
 body{
   background-image: url('backgroundImages/seattleAir.jpg');
   background-repeat: no-repeat;
@@ -44,11 +14,8 @@ img {
   height: 50px;
   width: 50px;
 }
-/*nav{
-  display: flex;
-}*/
+
 header {
-  /*border: black solid 1px;*/
   font-size: 25px;
   font-style: bold;
   display: flex;
@@ -60,30 +27,62 @@ header {
   width: 100%;
   top: 0;
   left: 0;
+  max-height: 85px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, .8);
+  color: white;
+}
+
+address {
+  margin: 15px;
+  font-size: 16px;
 }
 
 .logo{
-  margin: 10px;
-  margin-top: 20px;
+  display: flex;
 }
 
 .nav{
   display: inline;
   margin: 10px;
+  margin-right: 25px;
 }
 
 .hoodTitle{
   margin-top: 50px;
 }
-.results{
-  opacity: 0.50;
+
+.cost {
+  margin-top: 110px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cost input {
+  margin-top: 110px;
+  margin: 7px;
+}
+
+.cost label {
+  margin-top: 110px;
+  margin: 7px;
+}
+
+.costTitle {
+  margin-top: 110px;
+  margin: 10px;
 }
 
 #bigTable {
   height: 800px;
   display: flex;
   justify-content: center;
-  background-color:rgba(0, 0, 0, .50);
 }
 
 #showResults {
@@ -95,6 +94,7 @@ header {
   flex-wrap: wrap;
   overflow: scroll;
   justify-content: center;
+  background-color:rgba(0, 0, 0, .25);
 }
 
 #showResults img{
@@ -112,13 +112,14 @@ header {
 }
 
 #whoaResults {
-  max-height: 600px;
+  max-height: 500px;
   max-width: 1100px;
   overflow: scroll;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  background-color:rgba(0, 0, 0, .25);
 }
 
 #whoaResults img{
@@ -128,7 +129,11 @@ header {
 
 #whoaResults p{
   margin: 10px;
+}
+
+#whoaResults p a {
   text-decoration: none;
+  color: #26FF20;
 }
 
 
@@ -137,15 +142,6 @@ header {
   float: left;
   width: 20%;
 }
-
-/*.formWrapper{
-  display: inline-block;
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.85;
-  filter: alpha(opacity=85);
-}*/
 
 .imagesHoods{
   display:block;
@@ -159,4 +155,15 @@ header {
   margin-left: 40px;
   margin-top: 20px;
   opacity: 0.75;
+}
+
+.hoodTitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+#logoImage {
+  height: 100px;
+  width: 100px;
 }
