@@ -1,9 +1,28 @@
+* {
+  font-family: 'Dancing Script', cursive;
+}
+
 body{
   background-image: url('images/lakeunion.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
+}
+
+header {
+  font-size: 25px;
+  font-style: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(196, 195, 175, 0.3);
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  max-height: 85px;
 }
 
 
@@ -38,4 +57,30 @@ body{
   margin: auto;
   color: white;
   /*border: red 2px dotted;*/
+}
+
+.logo{
+  display: flex;
+}
+
+.nav{
+  display: inline;
+  margin: 10px;
+  margin-right: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.hoodTitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+#logoImage {
+  height: 100px;
+  width: 100px;
 }

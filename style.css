@@ -53,6 +53,11 @@ address {
   margin-right: 25px;
 }
 
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
 .hoodTitle{
   margin-top: 50px;
 }
